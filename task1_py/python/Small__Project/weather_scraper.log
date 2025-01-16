@@ -1,0 +1,25 @@
+2025-01-08 15:43:18,818 - ERROR - Error in main function: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.205)
+Stacktrace:
+	GetHandleVerifier [0x0103FD53+23747]
+	(No symbol) [0x00FC7D54]
+	(No symbol) [0x00E9BE53]
+	(No symbol) [0x00E7D91B]
+	(No symbol) [0x00F07EFF]
+	(No symbol) [0x00F1AD49]
+	(No symbol) [0x00F01B96]
+	(No symbol) [0x00ED3F3C]
+	(No symbol) [0x00ED4EBD]
+	GetHandleVerifier [0x0131AC73+3017699]
+	GetHandleVerifier [0x0132B93B+3086507]
+	GetHandleVerifier [0x013240F2+3055714]
+	GetHandleVerifier [0x010D5AF0+637536]
+	(No symbol) [0x00FD0A5D]
+	(No symbol) [0x00FCDA28]
+	(No symbol) [0x00FCDBC5]
+	(No symbol) [0x00FC07F0]
+	BaseThreadInitThunk [0x7530FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7703809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7703806E+238]
+
