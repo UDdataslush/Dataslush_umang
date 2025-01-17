@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Count the occurrences of "info" (case-insensitive) in the log file
+echo "Counting 'INFO' occurrences (case-insensitive):"
+grep -i -c info logfile.log
+echo
+
+# Replace "INFO" with "LOG" in the first 10 lines, and stop at line 11
+echo "Replacing 'INFO' with 'LOG' in the first 10 lines:"
+sed '1,10s/INFO/LOG/g; 11q' logfile.log
+echo
+
+# Print all lines containing "INFO"
+echo "Lines containing 'INFO':"
+sed -n '/INFO/p' logfile.log
+echo
+
+# Print line numbers 2 to 10
+echo "Printing line numbers 2 to 10:"
+awk 'NR>=2 && NR<=10 {print NR}' logfile.log
+echo
+
+# Display the first 10 lines of the log file
+echo "First 10 lines of the log file:"
+head logfile.log
+echo
+
+# Print lines where the second field is between "08:53:00" and "08:53:59"
+echo "Lines with timestamps between '08:53:00' and '08:53:59':"
+awk '$2 >= "08:53:00" && $2 <= "08:53:59" {print $2, $3, $4}' logfile.log
+echo
+
+# Print only the second field of the log file
+echo "Second field of the log file:"
+awk '{print $2}' logfile.log
+echo
+
+# Count the number of lines containing "INFO"
+echo "Counting lines with 'INFO':"
+awk '/INFO/ {count++} END {print count}' logfile.log
+echo
+
+# Print the first 5 fields of lines containing "INFO"
+echo "Details of lines with 'INFO':"
+awk '/INFO/ {p# Example: Display unique IP addresses (assuming first fiel
