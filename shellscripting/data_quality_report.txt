@@ -1,2 +1,6 @@
-Data Quality Report - Mon Jan 20 05:23:45 UTC 2025
+Data Quality Report - Mon Jan 20 06:29:18 UTC 2025
+------------------------------------
+Processing ./wrangled_data/sales_data_sample_cleaned_20250120_062918.csv for quality check
+Row Count: 2824
+Sales column not found.
 ------------------------------------
