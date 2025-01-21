@@ -64,3 +64,31 @@ INSERT INTO borrowings (user_id, book_id, borrow_date, due_date) VALUES
 (1, 1, '2025-01-01', '2025-01-10'),
 (2, 2, '2025-01-05', '2025-01-12');
 SELECT * FROM borrowings;
+
+
+-- For Fetching DATA
+-- Overdue Book
+SELECT b.title, u.first_name, u.last_name, br.due_date
+FROM borrowings br
+JOIN books b ON br.book_id = b.book_id
+JOIN users u ON br.user_id = u.user_id
+WHERE br.due_date < CURDATE() AND br.return_date IS NULL;
+
+
+-- Popular Author
+SELECT a.first_name, a.last_name, COUNT(br.borrowing_id) AS borrow_count
+FROM borrowings br
+JOIN books b ON br.book_id = b.book_id
+JOIN authors a ON b.author_id = a.author_id
+GROUP BY a.author_id
+ORDER BY borrow_count DESC
+LIMIT 10;
+
+
+
+-- Borrowing History
+SELECT b.title, br.borrow_date, br.due_date, br.return_date
+FROM borrowings br
+JOIN books b ON br.book_id = b.book_id
+WHERE br.user_id = ?  -- Replace ? with the user_id you want to query
+ORDER BY br.borrow_date DESC;
