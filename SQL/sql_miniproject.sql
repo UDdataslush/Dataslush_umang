@@ -91,4 +91,4 @@ SELECT b.title, br.borrow_date, br.due_date, br.return_date
 FROM borrowings br
 JOIN books b ON br.book_id = b.book_id
 WHERE br.user_id = 1
-ORDER BY br.borrow_date DESC;borrowingsborrowings
+ORDER BY br.borrow_date DESC;
