@@ -10,6 +10,68 @@ CREATE TABLE authors (
     death_date DATE
 );
 
+CREATE TABLE admins (
+    admin_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(100),
+    last_name VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    phone_number VARCHAR(15),
+    hire_date DATE
+);
+
+-- Insert 5 sample admin rows
+INSERT INTO admins (first_name, last_name, email, phone_number, hire_date) VALUES
+('Alice', 'Johnson', 'alice.johnson@library.com', '123-456-1111', '2020-06-15'),
+('Bob', 'Smith', 'bob.smith@library.com', '123-456-2222', '2018-04-10'),
+('Catherine', 'Brown', 'catherine.brown@library.com', '123-456-3333', '2022-01-20'),
+('Daniel', 'Wilson', 'daniel.wilson@library.com', '123-456-4444', '2019-09-05'),
+('Emma', 'Davis', 'emma.davis@library.com', '123-456-5555', '2021-11-12');
+-- Verify the admins table
+SELECT * FROM admins;
+
+
+
+CREATE TABLE book_requests (
+    request_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    requested_book_title VARCHAR(255),
+    requested_author_name VARCHAR(255),
+    request_date DATE,
+    request_status ENUM('Pending', 'Approved', 'Rejected') DEFAULT 'Pending',
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
+
+-- Insert 5 sample book requests
+INSERT INTO book_requests (user_id, requested_book_title, requested_author_name, request_date) VALUES
+(1, 'The Catcher in the Rye', 'J.D. Salinger', '2025-01-10'),
+(2, 'The Alchemist', 'Paulo Coelho', '2025-01-12'),
+(3, 'Sapiens: A Brief History of Humankind', 'Yuval Noah Harari', '2025-01-14'),
+(4, 'The Road', 'Cormac McCarthy', '2025-01-15'),
+(5, 'A Brief History of Time', 'Stephen Hawking', '2025-01-16');
+-- Verify the book_requests table
+SELECT * FROM book_requests;
+
+-- for view all book request
+SELECT 
+    br.request_id,
+    u.first_name AS requester_first_name,
+    u.last_name AS requester_last_name,
+    br.requested_book_title,
+    br.requested_author_name,
+    br.request_date,
+    br.request_status
+FROM book_requests br
+JOIN users u ON br.user_id = u.user_id;
+
+
+-- for fetch pending book request
+SELECT * 
+FROM book_requests 
+WHERE request_status = 'Pending';
+
+
+
+
 -- Insert 20 authors
 INSERT INTO authors (first_name, last_name, birth_date) VALUES
 ('J.K.', 'Rowling', '1965-07-31'),
@@ -200,7 +262,6 @@ SELECT
     COUNT(*) AS total_issued_books
 FROM borrowings
 WHERE return_date IS NULL;
-
 
 -- 9.  
 SELECT 
