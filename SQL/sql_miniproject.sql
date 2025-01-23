@@ -189,3 +189,22 @@ ORDER BY average_rating DESC;
 SELECT b.title, b.summary
 FROM books b
 WHERE b.author_id = 1; -- Replace with the desired author ID.
+
+-- 7 . total available in library
+SELECT 
+    SUM(available_copies) AS total_books 
+FROM books;
+
+-- 8. Issued Books
+SELECT 
+    COUNT(*) AS total_issued_books
+FROM borrowings
+WHERE return_date IS NULL;
+
+
+-- 9.  
+SELECT 
+    (SELECT SUM(available_copies) FROM books) AS total_books,
+    (SELECT COUNT(*) FROM borrowings WHERE return_date IS NULL) AS issued_books,
+    (SELECT SUM(available_copies) FROM books) - 
+    (SELECT COUNT(*) FROM borrowings WHERE return_date IS NULL) AS currently_available_books;
