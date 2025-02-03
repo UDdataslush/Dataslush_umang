@@ -1,0 +1,718 @@
+2025-01-28 10:10:59,060 WARNING - Could not import pandas. Holidays will not be considered.
+2025-01-28 10:10:59,101 INFO - Loaded executor: SequentialExecutor
+2025-01-28 10:10:59,494 INFO - Starting the scheduler
+2025-01-28 10:10:59,497 INFO - Processing each file at most -1 times
+2025-01-28 10:10:59,512 INFO - Launched DagFileProcessorManager with pid: 14575
+2025-01-28 10:10:59,517 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:10:59,546 INFO - Configured default timezone UTC
+2025-01-28 10:13:43,100 INFO - Heartbeat recovered after 31.29 seconds
+2025-01-28 10:14:13,207 INFO - Heartbeat recovered after 30.12 seconds
+2025-01-28 10:15:08,329 INFO - Heartbeat recovered after 35.17 seconds
+2025-01-28 10:15:58,452 INFO - Heartbeat recovered after 30.00 seconds
+2025-01-28 10:15:59,996 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:16:43,383 INFO - Heartbeat recovered after 33.41 seconds
+2025-01-28 10:21:29,194 INFO - Heartbeat recovered after 35.16 seconds
+2025-01-28 10:21:01,006 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:22:04,278 INFO - Heartbeat recovered after 35.13 seconds
+2025-01-28 10:22:34,206 INFO - Heartbeat recovered after 30.09 seconds
+2025-01-28 10:23:54,389 INFO - Heartbeat recovered after 35.01 seconds
+2025-01-28 10:24:31,787 INFO - Heartbeat recovered after 37.42 seconds
+2025-01-28 10:25:19,439 INFO - Heartbeat recovered after 35.49 seconds
+2025-01-28 10:26:03,454 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:26:49,576 INFO - Heartbeat recovered after 30.08 seconds
+2025-01-28 10:28:19,713 INFO - Heartbeat recovered after 34.55 seconds
+2025-01-28 10:29:54,913 INFO - Heartbeat recovered after 34.92 seconds
+2025-01-28 10:31:03,644 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:33:55,385 INFO - Heartbeat recovered after 33.17 seconds
+2025-01-28 10:35:15,410 INFO - Heartbeat recovered after 34.94 seconds
+2025-01-28 10:35:50,617 INFO - Heartbeat recovered after 32.96 seconds
+2025-01-28 10:36:04,116 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:39:05,936 INFO - Heartbeat recovered after 38.83 seconds
+2025-01-28 10:41:04,720 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:42:11,314 INFO - Heartbeat recovered after 31.27 seconds
+2025-01-28 10:44:46,505 INFO - Heartbeat recovered after 31.51 seconds
+2025-01-28 10:45:21,662 INFO - Heartbeat recovered after 35.19 seconds
+2025-01-28 10:46:26,709 INFO - Heartbeat recovered after 33.11 seconds
+2025-01-28 10:46:04,933 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:48:36,938 INFO - Heartbeat recovered after 31.31 seconds
+2025-01-28 10:51:05,297 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:54:02,635 INFO - Heartbeat recovered after 34.08 seconds
+2025-01-28 10:54:42,634 INFO - Heartbeat recovered after 30.15 seconds
+2025-01-28 10:56:05,654 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 10:56:47,707 INFO - Heartbeat recovered after 32.92 seconds
+2025-01-28 11:00:43,357 INFO - Heartbeat recovered after 35.00 seconds
+2025-01-28 11:01:06,216 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 11:04:33,784 INFO - Heartbeat recovered after 31.48 seconds
+2025-01-28 11:05:48,715 INFO - Heartbeat recovered after 31.68 seconds
+2025-01-28 11:06:07,039 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 11:07:14,012 INFO - Heartbeat recovered after 30.83 seconds
+2025-01-28 11:08:59,027 INFO - Heartbeat recovered after 33.51 seconds
+2025-01-28 11:11:07,403 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-28 11:14:54,601 INFO - Heartbeat recovered after 34.83 seconds
+2025-01-30 06:27:07,791 WARNING - Could not import pandas. Holidays will not be considered.
+2025-01-30 06:27:07,834 INFO - Loaded executor: SequentialExecutor
+2025-01-30 06:27:08,088 INFO - Starting the scheduler
+2025-01-30 06:27:08,091 INFO - Processing each file at most -1 times
+2025-01-30 06:27:08,103 INFO - Launched DagFileProcessorManager with pid: 11868
+2025-01-30 06:27:08,107 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 06:27:08,129 INFO - Configured default timezone UTC
+2025-01-30 06:32:18,697 INFO - Heartbeat recovered after 33.34 seconds
+2025-01-30 06:32:08,879 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 06:33:03,842 INFO - Heartbeat recovered after 30.06 seconds
+2025-01-30 06:34:48,893 INFO - Heartbeat recovered after 43.27 seconds
+2025-01-30 06:34:54,004 INFO - Heartbeat recovered after 37.41 seconds
+2025-01-30 06:36:54,306 INFO - Heartbeat recovered after 30.07 seconds
+2025-01-30 06:37:09,146 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 06:37:09,150 INFO - Marked 1 SchedulerJob instances as failed
+2025-01-30 06:38:04,635 INFO - Heartbeat recovered after 30.66 seconds
+2025-01-30 06:38:49,684 INFO - Heartbeat recovered after 34.00 seconds
+2025-01-30 06:41:54,829 INFO - Heartbeat recovered after 34.88 seconds
+2025-01-30 06:42:40,131 INFO - Heartbeat recovered after 34.69 seconds
+2025-01-30 06:42:09,420 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 06:44:15,421 INFO - Heartbeat recovered after 32.69 seconds
+2025-01-30 06:46:15,361 INFO - Heartbeat recovered after 34.09 seconds
+2025-01-30 06:47:34,047 INFO - Heartbeat recovered after 33.31 seconds
+2025-01-30 06:47:10,139 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 06:48:05,828 INFO - Heartbeat recovered after 31.80 seconds
+2025-01-30 06:50:31,838 INFO - Heartbeat recovered after 30.98 seconds
+2025-01-30 06:51:31,351 INFO - Heartbeat recovered after 30.19 seconds
+2025-01-30 06:52:26,400 INFO - Heartbeat recovered after 33.70 seconds
+2025-01-30 06:52:10,797 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 06:54:31,657 INFO - Heartbeat recovered after 34.54 seconds
+2025-01-30 06:55:06,739 INFO - Heartbeat recovered after 35.10 seconds
+2025-01-30 06:56:16,776 INFO - Heartbeat recovered after 34.97 seconds
+2025-01-30 06:57:11,521 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:00:27,259 INFO - Heartbeat recovered after 34.22 seconds
+2025-01-30 07:01:52,381 INFO - Heartbeat recovered after 35.04 seconds
+2025-01-30 07:02:27,424 INFO - Heartbeat recovered after 35.06 seconds
+2025-01-30 07:02:12,416 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:04:07,738 INFO - Heartbeat recovered after 33.60 seconds
+2025-01-30 07:06:58,091 INFO - Heartbeat recovered after 33.27 seconds
+2025-01-30 07:07:12,864 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:09:43,379 INFO - Heartbeat recovered after 34.75 seconds
+2025-01-30 07:11:28,523 INFO - Heartbeat recovered after 33.49 seconds
+2025-01-30 07:12:13,240 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:14:11,766 INFO - Heartbeat recovered after 42.22 seconds
+2025-01-30 07:17:44,347 INFO - Heartbeat recovered after 39.75 seconds
+2025-01-30 07:17:14,271 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:18:04,651 INFO - Heartbeat recovered after 33.40 seconds
+2025-01-30 07:22:24,785 INFO - Heartbeat recovered after 34.99 seconds
+2025-01-30 07:22:14,648 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:23:55,008 INFO - Heartbeat recovered after 34.95 seconds
+2025-01-30 07:24:30,249 INFO - Heartbeat recovered after 35.26 seconds
+2025-01-30 07:26:10,246 INFO - Heartbeat recovered after 33.99 seconds
+2025-01-30 07:27:30,457 INFO - Heartbeat recovered after 50.35 seconds
+2025-01-30 07:27:14,965 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:28:35,671 INFO - Heartbeat recovered after 38.13 seconds
+2025-01-30 07:32:16,316 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:33:26,205 INFO - Heartbeat recovered after 37.60 seconds
+2025-01-30 07:34:41,147 INFO - Heartbeat recovered after 36.42 seconds
+2025-01-30 07:37:16,628 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:39:21,823 INFO - Heartbeat recovered after 37.60 seconds
+2025-01-30 07:40:34,977 INFO - Heartbeat recovered after 33.07 seconds
+2025-01-30 07:42:42,166 INFO - Heartbeat recovered after 33.38 seconds
+2025-01-30 07:42:16,996 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:44:32,540 INFO - Heartbeat recovered after 34.10 seconds
+2025-01-30 07:45:27,687 INFO - Heartbeat recovered after 30.11 seconds
+2025-01-30 07:47:32,810 INFO - Heartbeat recovered after 30.01 seconds
+2025-01-30 07:47:17,361 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:48:27,956 INFO - Heartbeat recovered after 37.83 seconds
+2025-01-30 07:50:23,258 INFO - Heartbeat recovered after 35.21 seconds
+2025-01-30 07:51:03,254 INFO - Heartbeat recovered after 30.03 seconds
+2025-01-30 07:52:18,090 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:53:58,652 INFO - Heartbeat recovered after 34.77 seconds
+2025-01-30 07:56:54,006 INFO - Heartbeat recovered after 38.27 seconds
+2025-01-30 07:57:18,471 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 07:59:19,204 INFO - Heartbeat recovered after 30.13 seconds
+2025-01-30 08:00:09,442 INFO - Heartbeat recovered after 33.27 seconds
+2025-01-30 08:01:59,562 INFO - Heartbeat recovered after 30.01 seconds
+2025-01-30 08:02:19,160 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:02:54,867 INFO - Heartbeat recovered after 37.53 seconds
+2025-01-30 08:04:50,050 INFO - Heartbeat recovered after 33.26 seconds
+2025-01-30 08:05:33,829 INFO - Heartbeat recovered after 49.22 seconds
+2025-01-30 08:06:25,168 INFO - Heartbeat recovered after 33.39 seconds
+2025-01-30 08:07:06,006 INFO - Heartbeat recovered after 40.86 seconds
+2025-01-30 08:07:19,165 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:10:05,117 INFO - Heartbeat recovered after 38.05 seconds
+2025-01-30 08:10:46,085 INFO - Heartbeat recovered after 36.02 seconds
+2025-01-30 08:12:51,262 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:13:35,052 INFO - Heartbeat recovered after 33.40 seconds
+2025-01-30 08:15:31,730 INFO - Heartbeat recovered after 34.96 seconds
+2025-01-30 08:17:19,555 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:18:57,233 INFO - Heartbeat recovered after 33.85 seconds
+2025-01-30 08:20:32,440 INFO - Heartbeat recovered after 34.88 seconds
+2025-01-30 08:22:19,735 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:23:22,970 INFO - Heartbeat recovered after 30.26 seconds
+2025-01-30 08:24:17,880 INFO - Heartbeat recovered after 30.08 seconds
+2025-01-30 08:25:28,055 INFO - Heartbeat recovered after 38.40 seconds
+2025-01-30 08:26:33,236 INFO - Heartbeat recovered after 35.09 seconds
+2025-01-30 08:27:28,376 INFO - Heartbeat recovered after 35.18 seconds
+2025-01-30 08:27:20,147 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:28:08,452 INFO - Heartbeat recovered after 33.76 seconds
+2025-01-30 08:29:08,653 INFO - Heartbeat recovered after 34.53 seconds
+2025-01-30 08:32:20,362 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:34:05,270 INFO - Heartbeat recovered after 30.95 seconds
+2025-01-30 08:35:34,571 INFO - Heartbeat recovered after 33.43 seconds
+2025-01-30 08:37:20,784 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:38:14,920 INFO - Heartbeat recovered after 37.40 seconds
+2025-01-30 08:38:49,931 INFO - Heartbeat recovered after 35.03 seconds
+2025-01-30 08:39:35,258 INFO - Heartbeat recovered after 34.82 seconds
+2025-01-30 08:40:15,265 INFO - Heartbeat recovered after 30.01 seconds
+2025-01-30 08:40:45,343 INFO - Heartbeat recovered after 30.10 seconds
+2025-01-30 08:41:45,353 INFO - Heartbeat recovered after 34.95 seconds
+2025-01-30 08:42:30,453 INFO - Heartbeat recovered after 37.48 seconds
+2025-01-30 08:42:21,067 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:45:35,910 INFO - Heartbeat recovered after 35.25 seconds
+2025-01-30 08:46:10,936 INFO - Heartbeat recovered after 35.05 seconds
+2025-01-30 08:47:05,447 INFO - Heartbeat recovered after 37.55 seconds
+2025-01-30 08:47:10,993 INFO - Heartbeat recovered after 37.71 seconds
+2025-01-30 08:47:41,235 INFO - Heartbeat recovered after 33.77 seconds
+2025-01-30 08:47:21,128 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:50:16,588 INFO - Heartbeat recovered after 35.15 seconds
+2025-01-30 08:51:01,658 INFO - Heartbeat recovered after 32.73 seconds
+2025-01-30 08:51:31,703 INFO - Heartbeat recovered after 30.07 seconds
+2025-01-30 08:52:21,275 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:53:26,990 INFO - Heartbeat recovered after 37.69 seconds
+2025-01-30 08:54:07,183 INFO - Heartbeat recovered after 34.44 seconds
+2025-01-30 08:57:22,663 INFO - Heartbeat recovered after 34.60 seconds
+2025-01-30 08:57:22,144 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 08:58:22,781 INFO - Heartbeat recovered after 34.88 seconds
+2025-01-30 08:59:37,820 INFO - Heartbeat recovered after 38.64 seconds
+2025-01-30 08:59:42,796 INFO - Heartbeat recovered after 37.51 seconds
+2025-01-30 09:02:22,304 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 09:03:53,344 INFO - Heartbeat recovered after 35.20 seconds
+2025-01-30 09:05:35,736 INFO - Heartbeat recovered after 30.17 seconds
+2025-01-30 09:06:28,528 INFO - Heartbeat recovered after 37.37 seconds
+2025-01-30 09:07:18,776 INFO - Heartbeat recovered after 35.05 seconds
+2025-01-30 09:07:23,610 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 09:10:24,182 INFO - Heartbeat recovered after 33.40 seconds
+2025-01-30 09:11:19,102 INFO - Heartbeat recovered after 35.12 seconds
+2025-01-30 09:12:23,941 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 09:16:29,831 INFO - Heartbeat recovered after 34.69 seconds
+2025-01-30 09:17:20,023 INFO - Heartbeat recovered after 30.30 seconds
+2025-01-30 09:17:26,787 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 09:21:50,452 INFO - Heartbeat recovered after 30.05 seconds
+2025-01-30 09:22:27,185 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-30 09:23:00,612 INFO - Heartbeat recovered after 35.17 seconds
+2025-01-31 06:28:45,447 INFO - Loaded executor: SequentialExecutor
+2025-01-31 06:28:45,694 INFO - Starting the scheduler
+2025-01-31 06:28:45,698 INFO - Processing each file at most -1 times
+2025-01-31 06:28:45,710 INFO - Launched DagFileProcessorManager with pid: 3466
+2025-01-31 06:28:45,716 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 06:29:18,380 INFO - Configured default timezone UTC
+2025-01-31 06:29:24,769 INFO - Heartbeat recovered after 34.33 seconds
+2025-01-31 06:32:53,684 INFO - Heartbeat recovered after 38.18 seconds
+2025-01-31 06:33:26,816 INFO - 1 tasks up for execution:
+	<TaskInstance: hey_ud_dag.print_welcome manual__2025-01-31T06:33:25.014775+00:00 [scheduled]>
+2025-01-31 06:33:26,819 INFO - DAG hey_ud_dag has 0/16 running and queued tasks
+2025-01-31 06:33:26,823 INFO - Setting the following tasks to queued state:
+	<TaskInstance: hey_ud_dag.print_welcome manual__2025-01-31T06:33:25.014775+00:00 [scheduled]>
+2025-01-31 06:33:26,909 INFO - Trying to enqueue tasks: [<TaskInstance: hey_ud_dag.print_welcome manual__2025-01-31T06:33:25.014775+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 06:33:26,913 INFO - Sending TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_welcome', run_id='manual__2025-01-31T06:33:25.014775+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-01-31 06:33:26,916 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_welcome', 'manual__2025-01-31T06:33:25.014775+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-01-31 06:33:26,964 INFO - Executing command: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_welcome', 'manual__2025-01-31T06:33:25.014775+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-01-31 06:33:54,804 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_welcome', run_id='manual__2025-01-31T06:33:25.014775+00:00', try_number=1, map_index=-1)
+2025-01-31 06:33:54,812 INFO - TaskInstance Finished: dag_id=hey_ud_dag, task_id=print_welcome, run_id=manual__2025-01-31T06:33:25.014775+00:00, map_index=-1, run_start_date=2025-01-31 06:33:44.504741+00:00, run_end_date=2025-01-31 06:33:54.328743+00:00, run_duration=9.824002, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=7, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-01-31 06:33:26.827891+00:00, queued_by_job_id=6, pid=3712
+2025-01-31 06:33:54,848 INFO - Heartbeat recovered after 33.67 seconds
+2025-01-31 06:33:54,865 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 06:33:54,869 INFO - Marked 1 SchedulerJob instances as failed
+2025-01-31 06:33:55,661 INFO - 1 tasks up for execution:
+	<TaskInstance: hey_ud_dag.print_date manual__2025-01-31T06:33:25.014775+00:00 [scheduled]>
+2025-01-31 06:33:55,664 INFO - DAG hey_ud_dag has 0/16 running and queued tasks
+2025-01-31 06:33:55,667 INFO - Setting the following tasks to queued state:
+	<TaskInstance: hey_ud_dag.print_date manual__2025-01-31T06:33:25.014775+00:00 [scheduled]>
+2025-01-31 06:33:55,671 INFO - Trying to enqueue tasks: [<TaskInstance: hey_ud_dag.print_date manual__2025-01-31T06:33:25.014775+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 06:33:55,675 INFO - Sending TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_date', run_id='manual__2025-01-31T06:33:25.014775+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 06:33:55,678 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_date', 'manual__2025-01-31T06:33:25.014775+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-01-31 06:33:55,698 INFO - Executing command: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_date', 'manual__2025-01-31T06:33:25.014775+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-01-31 06:34:19,520 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_date', run_id='manual__2025-01-31T06:33:25.014775+00:00', try_number=1, map_index=-1)
+2025-01-31 06:34:19,660 INFO - TaskInstance Finished: dag_id=hey_ud_dag, task_id=print_date, run_id=manual__2025-01-31T06:33:25.014775+00:00, map_index=-1, run_start_date=2025-01-31 06:34:15.477861+00:00, run_end_date=2025-01-31 06:34:16.303791+00:00, run_duration=0.82593, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=9, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 06:33:55.670377+00:00, queued_by_job_id=6, pid=3731
+2025-01-31 06:38:39,325 INFO - Heartbeat recovered after 40.01 seconds
+2025-01-31 06:38:54,267 INFO - Heartbeat recovered after 38.69 seconds
+2025-01-31 06:39:09,438 INFO - Heartbeat recovered after 38.00 seconds
+2025-01-31 06:38:54,527 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 06:39:02,740 INFO - Setting next_dagrun for weather_etl_pipeline to 2025-01-31 00:00:00+00:00, run_after=2025-02-01 00:00:00+00:00
+2025-01-31 06:39:02,822 INFO - 1 tasks up for execution:
+	<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-01-30T00:00:00+00:00 [scheduled]>
+2025-01-31 06:39:02,824 INFO - DAG weather_etl_pipeline has 0/16 running and queued tasks
+2025-01-31 06:39:02,826 INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-01-30T00:00:00+00:00 [scheduled]>
+2025-01-31 06:39:02,831 INFO - Trying to enqueue tasks: [<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-01-30T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 06:39:02,834 INFO - Sending TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='extract_weather_data', run_id='scheduled__2025-01-30T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2025-01-31 06:39:02,837 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'extract_weather_data', 'scheduled__2025-01-30T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-01-31 06:39:03,005 INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'extract_weather_data', 'scheduled__2025-01-30T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-01-31 06:39:23,791 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='extract_weather_data', run_id='scheduled__2025-01-30T00:00:00+00:00', try_number=1, map_index=-1)
+2025-01-31 06:39:23,796 INFO - TaskInstance Finished: dag_id=weather_etl_pipeline, task_id=extract_weather_data, run_id=scheduled__2025-01-30T00:00:00+00:00, map_index=-1, run_start_date=2025-01-31 06:39:21.906254+00:00, run_end_date=2025-01-31 06:39:23.122437+00:00, run_duration=1.216183, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=11, pool=default_pool, queue=default, priority_weight=3, operator=_PythonDecoratedOperator, queued_dttm=2025-01-31 06:39:02.829957+00:00, queued_by_job_id=6, pid=4005
+2025-01-31 06:39:24,285 INFO - 2 tasks up for execution:
+	<TaskInstance: weather_etl_pipeline.transform_weather_data scheduled__2025-01-30T00:00:00+00:00 [scheduled]>
+	<TaskInstance: weather_etl_pipeline.transform_weather_data manual__2025-01-31T06:39:02.377091+00:00 [scheduled]>
+2025-01-31 06:39:24,289 INFO - DAG weather_etl_pipeline has 0/16 running and queued tasks
+2025-01-31 06:39:24,293 INFO - DAG weather_etl_pipeline has 1/16 running and queued tasks
+2025-01-31 06:39:24,297 INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_etl_pipeline.transform_weather_data scheduled__2025-01-30T00:00:00+00:00 [scheduled]>
+	<TaskInstance: weather_etl_pipeline.transform_weather_data manual__2025-01-31T06:39:02.377091+00:00 [scheduled]>
+2025-01-31 06:39:24,301 INFO - Trying to enqueue tasks: [<TaskInstance: weather_etl_pipeline.transform_weather_data scheduled__2025-01-30T00:00:00+00:00 [scheduled]>, <TaskInstance: weather_etl_pipeline.transform_weather_data manual__2025-01-31T06:39:02.377091+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 06:39:24,303 INFO - Sending TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='transform_weather_data', run_id='scheduled__2025-01-30T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-01-31 06:39:24,305 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'transform_weather_data', 'scheduled__2025-01-30T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-01-31 06:39:24,307 INFO - Sending TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='transform_weather_data', run_id='manual__2025-01-31T06:39:02.377091+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-01-31 06:39:24,309 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'transform_weather_data', 'manual__2025-01-31T06:39:02.377091+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-01-31 06:39:24,337 INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'transform_weather_data', 'scheduled__2025-01-30T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-01-31 06:39:49,495 INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'transform_weather_data', 'manual__2025-01-31T06:39:02.377091+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-01-31 06:40:13,329 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='transform_weather_data', run_id='scheduled__2025-01-30T00:00:00+00:00', try_number=1, map_index=-1)
+2025-01-31 06:40:13,331 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='transform_weather_data', run_id='manual__2025-01-31T06:39:02.377091+00:00', try_number=1, map_index=-1)
+2025-01-31 06:40:13,341 INFO - TaskInstance Finished: dag_id=weather_etl_pipeline, task_id=transform_weather_data, run_id=manual__2025-01-31T06:39:02.377091+00:00, map_index=-1, run_start_date=2025-01-31 06:40:12.366300+00:00, run_end_date=2025-01-31 06:40:12.719859+00:00, run_duration=0.353559, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=13, pool=default_pool, queue=default, priority_weight=2, operator=_PythonDecoratedOperator, queued_dttm=2025-01-31 06:39:24.300074+00:00, queued_by_job_id=6, pid=4057
+2025-01-31 06:40:13,344 INFO - TaskInstance Finished: dag_id=weather_etl_pipeline, task_id=transform_weather_data, run_id=scheduled__2025-01-30T00:00:00+00:00, map_index=-1, run_start_date=2025-01-31 06:39:48.386490+00:00, run_end_date=2025-01-31 06:39:48.849901+00:00, run_duration=0.463411, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=12, pool=default_pool, queue=default, priority_weight=2, operator=_PythonDecoratedOperator, queued_dttm=2025-01-31 06:39:24.300074+00:00, queued_by_job_id=6, pid=4037
+2025-01-31 06:40:13,387 INFO - Heartbeat recovered after 49.57 seconds
+2025-01-31 06:40:14,074 ERROR - Marking run <DagRun weather_etl_pipeline @ 2025-01-30 00:00:00+00:00: scheduled__2025-01-30T00:00:00+00:00, state:running, queued_at: 2025-01-31 06:39:02.728559+00:00. externally triggered: False> failed
+2025-01-31 06:40:14,077 INFO - DagRun Finished: dag_id=weather_etl_pipeline, execution_date=2025-01-30 00:00:00+00:00, run_id=scheduled__2025-01-30T00:00:00+00:00, run_start_date=2025-01-31 06:39:02.768374+00:00, run_end_date=2025-01-31 06:40:14.077290+00:00, run_duration=71.308916, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2025-01-30 00:00:00+00:00, data_interval_end=2025-01-31 00:00:00+00:00, dag_hash=177d7a241483b43fcf3596b1a4912f6b
+2025-01-31 06:40:14,087 INFO - Setting next_dagrun for weather_etl_pipeline to 2025-01-31 00:00:00+00:00, run_after=2025-02-01 00:00:00+00:00
+2025-01-31 06:40:14,119 INFO - 1 tasks up for execution:
+	<TaskInstance: weather_etl_pipeline.load_weather_data manual__2025-01-31T06:39:02.377091+00:00 [scheduled]>
+2025-01-31 06:40:14,122 INFO - DAG weather_etl_pipeline has 0/16 running and queued tasks
+2025-01-31 06:40:14,125 INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_etl_pipeline.load_weather_data manual__2025-01-31T06:39:02.377091+00:00 [scheduled]>
+2025-01-31 06:40:14,129 INFO - Trying to enqueue tasks: [<TaskInstance: weather_etl_pipeline.load_weather_data manual__2025-01-31T06:39:02.377091+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 06:40:14,132 INFO - Sending TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='load_weather_data', run_id='manual__2025-01-31T06:39:02.377091+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 06:40:14,134 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'load_weather_data', 'manual__2025-01-31T06:39:02.377091+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-01-31 06:40:14,170 INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'load_weather_data', 'manual__2025-01-31T06:39:02.377091+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-01-31 06:40:37,088 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='load_weather_data', run_id='manual__2025-01-31T06:39:02.377091+00:00', try_number=1, map_index=-1)
+2025-01-31 06:40:37,094 INFO - TaskInstance Finished: dag_id=weather_etl_pipeline, task_id=load_weather_data, run_id=manual__2025-01-31T06:39:02.377091+00:00, map_index=-1, run_start_date=2025-01-31 06:40:35.996296+00:00, run_end_date=2025-01-31 06:41:09.531431+00:00, run_duration=33.535135, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=15, pool=default_pool, queue=default, priority_weight=1, operator=_PythonDecoratedOperator, queued_dttm=2025-01-31 06:40:14.128254+00:00, queued_by_job_id=6, pid=4078
+2025-01-31 06:42:39,639 INFO - Heartbeat recovered after 35.08 seconds
+2025-01-31 06:43:54,471 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 06:46:20,117 INFO - Heartbeat recovered after 38.39 seconds
+2025-01-31 06:49:10,369 INFO - Heartbeat recovered after 38.75 seconds
+2025-01-31 06:48:54,113 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 06:50:50,484 INFO - Heartbeat recovered after 38.86 seconds
+2025-01-31 06:53:53,857 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 06:57:11,132 INFO - Heartbeat recovered after 38.35 seconds
+2025-01-31 06:57:51,195 INFO - Heartbeat recovered after 40.19 seconds
+2025-01-31 06:58:27,496 INFO - Heartbeat recovered after 35.99 seconds
+2025-01-31 06:58:52,723 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 07:03:02,339 INFO - Heartbeat recovered after 36.59 seconds
+2025-01-31 07:03:52,935 INFO - Heartbeat recovered after 34.75 seconds
+2025-01-31 07:03:51,438 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 07:08:12,188 INFO - Heartbeat recovered after 34.16 seconds
+2025-01-31 07:09:17,260 INFO - Heartbeat recovered after 34.31 seconds
+2025-01-31 07:08:50,591 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 07:10:02,312 INFO - Heartbeat recovered after 38.15 seconds
+2025-01-31 07:12:27,617 INFO - Heartbeat recovered after 40.53 seconds
+2025-01-31 07:13:51,235 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 07:16:03,031 INFO - Heartbeat recovered after 38.84 seconds
+2025-01-31 07:18:58,284 INFO - Heartbeat recovered after 37.52 seconds
+2025-01-31 07:18:50,454 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 07:22:14,823 INFO - Heartbeat recovered after 34.73 seconds
+2025-01-31 07:23:23,794 INFO - Heartbeat recovered after 30.14 seconds
+2025-01-31 07:23:49,082 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 09:47:08,129 INFO - Loaded executor: SequentialExecutor
+2025-01-31 09:47:08,464 INFO - Starting the scheduler
+2025-01-31 09:47:08,467 INFO - Processing each file at most -1 times
+2025-01-31 09:47:08,482 INFO - Launched DagFileProcessorManager with pid: 1316
+2025-01-31 09:47:08,488 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 09:47:08,512 INFO - Marked 2 SchedulerJob instances as failed
+2025-01-31 09:47:08,518 INFO - Configured default timezone UTC
+2025-01-31 09:48:54,134 INFO - Heartbeat recovered after 34.12 seconds
+2025-01-31 09:51:04,428 INFO - Heartbeat recovered after 38.29 seconds
+2025-01-31 09:51:54,476 INFO - Heartbeat recovered after 34.52 seconds
+2025-01-31 09:52:11,656 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 09:52:44,633 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:52:43.990435+00:00 [scheduled]>
+2025-01-31 09:52:44,635 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 09:52:44,638 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:52:43.990435+00:00 [scheduled]>
+2025-01-31 09:52:44,643 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:52:43.990435+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 09:52:44,645 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T09:52:43.990435+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 09:52:44,648 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T09:52:43.990435+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 09:52:44,665 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T09:52:43.990435+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 09:53:14,569 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T09:52:43.990435+00:00', try_number=1, map_index=-1)
+2025-01-31 09:53:14,577 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T09:52:43.990435+00:00, map_index=-1, run_start_date=2025-01-31 09:53:44.595763+00:00, run_end_date=2025-01-31 09:53:13.853651+00:00, run_duration=-30.742112, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=17, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 09:52:44.641593+00:00, queued_by_job_id=16, pid=1617
+2025-01-31 09:53:14,671 INFO - Heartbeat recovered after 34.44 seconds
+2025-01-31 09:56:04,889 INFO - Heartbeat recovered after 36.31 seconds
+2025-01-31 09:56:05,719 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:56:04.323871+00:00 [scheduled]>
+2025-01-31 09:56:05,722 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 09:56:05,725 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:56:04.323871+00:00 [scheduled]>
+2025-01-31 09:56:05,728 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:56:04.323871+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 09:56:05,730 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T09:56:04.323871+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 09:56:05,732 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T09:56:04.323871+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 09:56:05,753 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T09:56:04.323871+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 09:56:34,189 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T09:56:04.323871+00:00', try_number=1, map_index=-1)
+2025-01-31 09:56:34,196 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T09:56:04.323871+00:00, map_index=-1, run_start_date=2025-01-31 09:56:32.531534+00:00, run_end_date=2025-01-31 09:56:33.489712+00:00, run_duration=0.958178, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=18, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 09:56:05.727400+00:00, queued_by_job_id=16, pid=1815
+2025-01-31 09:57:20,058 INFO - Heartbeat recovered after 37.82 seconds
+2025-01-31 09:57:11,801 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 09:58:10,126 INFO - Heartbeat recovered after 34.22 seconds
+2025-01-31 09:58:14,192 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:52:43.990435+00:00 [scheduled]>
+2025-01-31 09:58:14,195 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 09:58:14,198 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:52:43.990435+00:00 [scheduled]>
+2025-01-31 09:58:14,203 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:52:43.990435+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 09:58:14,206 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T09:52:43.990435+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 09:58:14,209 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T09:52:43.990435+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 09:58:14,463 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T09:52:43.990435+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 09:58:44,594 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T09:52:43.990435+00:00', try_number=2, map_index=-1)
+2025-01-31 09:58:44,598 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T09:52:43.990435+00:00, map_index=-1, run_start_date=2025-01-31 09:58:42.411344+00:00, run_end_date=2025-01-31 09:58:43.971468+00:00, run_duration=1.560124, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=19, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 09:58:14.202201+00:00, queued_by_job_id=16, pid=1954
+2025-01-31 09:58:44,634 INFO - Heartbeat recovered after 34.59 seconds
+2025-01-31 09:58:52,650 ERROR - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 09:52:43.990435+00:00: manual__2025-01-31T09:52:43.990435+00:00, state:running, queued_at: 2025-01-31 09:52:44.156391+00:00. externally triggered: True> failed
+2025-01-31 09:58:52,656 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 09:52:43.990435+00:00, run_id=manual__2025-01-31T09:52:43.990435+00:00, run_start_date=2025-01-31 09:52:44.565987+00:00, run_end_date=2025-01-31 09:58:52.656331+00:00, run_duration=368.090344, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 09:52:43.990435+00:00, data_interval_end=2025-01-31 09:52:43.990435+00:00, dag_hash=ce2304765204139f7aeda71fd2091116
+2025-01-31 09:59:40,271 INFO - Heartbeat recovered after 36.11 seconds
+2025-01-31 10:00:55,402 INFO - Heartbeat recovered after 35.12 seconds
+2025-01-31 10:01:34,004 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:56:04.323871+00:00 [scheduled]>
+2025-01-31 10:01:34,008 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 10:01:34,010 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:56:04.323871+00:00 [scheduled]>
+2025-01-31 10:01:34,014 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T09:56:04.323871+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 10:01:34,017 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T09:56:04.323871+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 10:01:34,019 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T09:56:04.323871+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:01:34,040 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T09:56:04.323871+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:02:03,743 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T09:56:04.323871+00:00', try_number=2, map_index=-1)
+2025-01-31 10:02:03,747 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T09:56:04.323871+00:00, map_index=-1, run_start_date=2025-01-31 10:02:02.138401+00:00, run_end_date=2025-01-31 10:02:03.124186+00:00, run_duration=0.985785, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=20, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 10:01:34.013402+00:00, queued_by_job_id=16, pid=2136
+2025-01-31 10:02:03,784 INFO - Heartbeat recovered after 34.89 seconds
+2025-01-31 10:02:11,477 ERROR - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 09:56:04.323871+00:00: manual__2025-01-31T09:56:04.323871+00:00, state:running, queued_at: 2025-01-31 09:56:04.352640+00:00. externally triggered: True> failed
+2025-01-31 10:02:11,481 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 09:56:04.323871+00:00, run_id=manual__2025-01-31T09:56:04.323871+00:00, run_start_date=2025-01-31 09:56:05.373236+00:00, run_end_date=2025-01-31 10:02:11.481152+00:00, run_duration=366.107916, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 09:56:04.323871+00:00, data_interval_end=2025-01-31 09:56:04.323871+00:00, dag_hash=ce2304765204139f7aeda71fd2091116
+2025-01-31 10:02:12,390 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:03:50,592 INFO - Heartbeat recovered after 35.25 seconds
+2025-01-31 10:05:15,691 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:05:07.444504+00:00 [scheduled]>
+2025-01-31 10:05:15,699 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 10:05:15,705 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:05:07.444504+00:00 [scheduled]>
+2025-01-31 10:05:15,713 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:05:07.444504+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 10:05:15,717 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:05:07.444504+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 10:05:15,721 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:05:07.444504+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:05:15,745 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:05:07.444504+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:05:51,911 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:05:07.444504+00:00', try_number=1, map_index=-1)
+2025-01-31 10:05:51,917 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T10:05:07.444504+00:00, map_index=-1, run_start_date=2025-01-31 10:05:44.193159+00:00, run_end_date=2025-01-31 10:05:51.182193+00:00, run_duration=6.989034, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=21, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 10:05:15.711507+00:00, queued_by_job_id=16, pid=2353
+2025-01-31 10:05:52,067 INFO - Heartbeat recovered after 47.57 seconds
+2025-01-31 10:06:25,816 INFO - Heartbeat recovered after 33.88 seconds
+2025-01-31 10:07:12,491 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:07:21,896 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:07:14.421232+00:00 [scheduled]>
+2025-01-31 10:07:21,900 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 10:07:21,903 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:07:14.421232+00:00 [scheduled]>
+2025-01-31 10:07:21,907 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:07:14.421232+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 10:07:21,909 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:07:14.421232+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 10:07:21,912 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:07:14.421232+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:07:21,932 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:07:14.421232+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:07:50,926 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:07:14.421232+00:00', try_number=1, map_index=-1)
+2025-01-31 10:07:50,931 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T10:07:14.421232+00:00, map_index=-1, run_start_date=2025-01-31 10:07:49.221575+00:00, run_end_date=2025-01-31 10:07:50.285067+00:00, run_duration=1.063492, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=22, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 10:07:21.906279+00:00, queued_by_job_id=16, pid=2507
+2025-01-31 10:07:51,082 INFO - Heartbeat recovered after 38.31 seconds
+2025-01-31 10:08:46,070 INFO - Heartbeat recovered after 36.54 seconds
+2025-01-31 10:10:16,294 INFO - Heartbeat recovered after 34.34 seconds
+2025-01-31 10:10:54,212 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:05:07.444504+00:00 [scheduled]>
+2025-01-31 10:10:54,219 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 10:10:54,240 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:05:07.444504+00:00 [scheduled]>
+2025-01-31 10:10:54,247 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:05:07.444504+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 10:10:54,252 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:05:07.444504+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 10:10:54,256 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:05:07.444504+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:10:54,613 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:05:07.444504+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:11:28,878 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:05:07.444504+00:00', try_number=2, map_index=-1)
+2025-01-31 10:11:28,885 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T10:05:07.444504+00:00, map_index=-1, run_start_date=2025-01-31 10:11:20.804634+00:00, run_end_date=2025-01-31 10:11:27.981504+00:00, run_duration=7.17687, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=23, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 10:10:54.245441+00:00, queued_by_job_id=16, pid=2750
+2025-01-31 10:11:29,359 INFO - Heartbeat recovered after 45.00 seconds
+2025-01-31 10:11:37,276 ERROR - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 10:05:07.444504+00:00: manual__2025-01-31T10:05:07.444504+00:00, state:running, queued_at: 2025-01-31 10:05:07.471147+00:00. externally triggered: True> failed
+2025-01-31 10:11:37,280 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 10:05:07.444504+00:00, run_id=manual__2025-01-31T10:05:07.444504+00:00, run_start_date=2025-01-31 10:05:15.614517+00:00, run_end_date=2025-01-31 10:11:37.280546+00:00, run_duration=381.666029, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 10:05:07.444504+00:00, data_interval_end=2025-01-31 10:05:07.444504+00:00, dag_hash=ce2304765204139f7aeda71fd2091116
+2025-01-31 10:12:16,545 INFO - Heartbeat recovered after 39.22 seconds
+2025-01-31 10:12:16,021 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:13:11,612 INFO - Heartbeat recovered after 34.31 seconds
+2025-01-31 10:13:26,707 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:07:14.421232+00:00 [scheduled]>
+2025-01-31 10:13:26,710 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 10:12:53,671 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:07:14.421232+00:00 [scheduled]>
+2025-01-31 10:12:53,675 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:07:14.421232+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 10:12:53,678 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:07:14.421232+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 10:12:53,680 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:07:14.421232+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:12:54,539 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:07:14.421232+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:13:22,606 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:07:14.421232+00:00', try_number=2, map_index=-1)
+2025-01-31 10:13:22,611 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T10:07:14.421232+00:00, map_index=-1, run_start_date=2025-01-31 10:13:20.811466+00:00, run_end_date=2025-01-31 10:13:21.847402+00:00, run_duration=1.035936, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=24, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 10:12:53.674944+00:00, queued_by_job_id=16, pid=2887
+2025-01-31 10:13:56,671 ERROR - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 10:07:14.421232+00:00: manual__2025-01-31T10:07:14.421232+00:00, state:running, queued_at: 2025-01-31 10:07:14.489162+00:00. externally triggered: True> failed
+2025-01-31 10:13:56,675 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 10:07:14.421232+00:00, run_id=manual__2025-01-31T10:07:14.421232+00:00, run_start_date=2025-01-31 10:07:21.787203+00:00, run_end_date=2025-01-31 10:13:56.675756+00:00, run_duration=394.888553, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 10:07:14.421232+00:00, data_interval_end=2025-01-31 10:07:14.421232+00:00, dag_hash=ce2304765204139f7aeda71fd2091116
+2025-01-31 10:14:46,726 INFO - Heartbeat recovered after 37.38 seconds
+2025-01-31 10:17:27,055 INFO - Heartbeat recovered after 38.20 seconds
+2025-01-31 10:17:20,652 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:19:52,285 INFO - Heartbeat recovered after 38.28 seconds
+2025-01-31 10:22:12,485 INFO - Heartbeat recovered after 35.26 seconds
+2025-01-31 10:22:23,717 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:23:42,642 INFO - Heartbeat recovered after 42.82 seconds
+2025-01-31 10:25:37,805 INFO - Heartbeat recovered after 39.54 seconds
+2025-01-31 10:25:33,618 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:25:27.425721+00:00 [scheduled]>
+2025-01-31 10:25:33,622 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 10:25:33,625 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:25:27.425721+00:00 [scheduled]>
+2025-01-31 10:25:33,629 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:25:27.425721+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 10:25:33,632 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:25:27.425721+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 10:25:33,634 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:25:27.425721+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:25:33,656 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:25:27.425721+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:26:09,574 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:25:27.425721+00:00', try_number=1, map_index=-1)
+2025-01-31 10:26:09,579 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T10:25:27.425721+00:00, map_index=-1, run_start_date=2025-01-31 10:26:01.392299+00:00, run_end_date=2025-01-31 10:26:08.849857+00:00, run_duration=7.457558, state=up_for_retry, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=25, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 10:25:33.628714+00:00, queued_by_job_id=16, pid=3569
+2025-01-31 10:26:09,748 INFO - Heartbeat recovered after 31.96 seconds
+2025-01-31 10:26:57,935 INFO - Heartbeat recovered after 35.23 seconds
+2025-01-31 10:27:42,951 INFO - Heartbeat recovered after 34.75 seconds
+2025-01-31 10:27:25,602 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:29:18,189 INFO - Heartbeat recovered after 35.10 seconds
+2025-01-31 10:31:03,401 INFO - Heartbeat recovered after 34.87 seconds
+2025-01-31 10:31:13,181 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:25:27.425721+00:00 [scheduled]>
+2025-01-31 10:31:13,185 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 10:31:13,189 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:25:27.425721+00:00 [scheduled]>
+2025-01-31 10:31:13,193 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T10:25:27.425721+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 10:31:13,197 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:25:27.425721+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 10:31:13,200 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:25:27.425721+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:31:13,221 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T10:25:27.425721+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 10:31:49,543 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T10:25:27.425721+00:00', try_number=2, map_index=-1)
+2025-01-31 10:31:49,549 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T10:25:27.425721+00:00, map_index=-1, run_start_date=2025-01-31 10:31:41.403418+00:00, run_end_date=2025-01-31 10:31:48.727893+00:00, run_duration=7.324475, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=1, job_id=26, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 10:31:13.192954+00:00, queued_by_job_id=16, pid=3943
+2025-01-31 10:31:49,584 INFO - Heartbeat recovered after 46.21 seconds
+2025-01-31 10:31:58,146 ERROR - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 10:25:27.425721+00:00: manual__2025-01-31T10:25:27.425721+00:00, state:running, queued_at: 2025-01-31 10:25:27.448057+00:00. externally triggered: True> failed
+2025-01-31 10:31:58,149 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 10:25:27.425721+00:00, run_id=manual__2025-01-31T10:25:27.425721+00:00, run_start_date=2025-01-31 10:25:33.099216+00:00, run_end_date=2025-01-31 10:31:58.149085+00:00, run_duration=385.049869, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 10:25:27.425721+00:00, data_interval_end=2025-01-31 10:25:27.425721+00:00, dag_hash=aeec7285723403828e458d11669d5445
+2025-01-31 10:32:24,852 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:33:53,607 INFO - Heartbeat recovered after 34.32 seconds
+2025-01-31 10:35:18,922 INFO - Heartbeat recovered after 35.34 seconds
+2025-01-31 10:38:47,314 INFO - Loaded executor: SequentialExecutor
+2025-01-31 10:38:47,596 INFO - Starting the scheduler
+2025-01-31 10:38:47,599 INFO - Processing each file at most -1 times
+2025-01-31 10:38:47,614 INFO - Launched DagFileProcessorManager with pid: 626
+2025-01-31 10:38:47,622 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:38:47,641 INFO - Marked 1 SchedulerJob instances as failed
+2025-01-31 10:38:47,647 INFO - Configured default timezone UTC
+2025-01-31 10:40:21,090 INFO - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 10:40:19.532739+00:00: manual__2025-01-31T10:40:19.532739+00:00, state:running, queued_at: 2025-01-31 10:40:19.558959+00:00. externally triggered: True> successful
+2025-01-31 10:40:21,093 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 10:40:19.532739+00:00, run_id=manual__2025-01-31T10:40:19.532739+00:00, run_start_date=2025-01-31 10:40:21.055124+00:00, run_end_date=2025-01-31 10:40:21.093920+00:00, run_duration=0.038796, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 10:40:19.532739+00:00, data_interval_end=2025-01-31 10:40:19.532739+00:00, dag_hash=aeec7285723403828e458d11669d5445
+2025-01-31 10:41:28,733 INFO - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 10:41:24.404228+00:00: manual__2025-01-31T10:41:24.404228+00:00, state:running, queued_at: 2025-01-31 10:41:24.434007+00:00. externally triggered: True> successful
+2025-01-31 10:41:28,736 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 10:41:24.404228+00:00, run_id=manual__2025-01-31T10:41:24.404228+00:00, run_start_date=2025-01-31 10:41:28.706728+00:00, run_end_date=2025-01-31 10:41:28.736462+00:00, run_duration=0.029734, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 10:41:24.404228+00:00, data_interval_end=2025-01-31 10:41:24.404228+00:00, dag_hash=aeec7285723403828e458d11669d5445
+2025-01-31 10:42:14,439 INFO - Heartbeat recovered after 35.30 seconds
+2025-01-31 10:43:47,638 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:47:14,874 INFO - Heartbeat recovered after 37.20 seconds
+2025-01-31 10:48:44,962 INFO - Heartbeat recovered after 34.14 seconds
+2025-01-31 10:48:15,123 INFO - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 10:48:14.436080+00:00: manual__2025-01-31T10:48:14.436080+00:00, state:running, queued_at: 2025-01-31 10:48:14.468342+00:00. externally triggered: True> successful
+2025-01-31 10:48:15,127 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 10:48:14.436080+00:00, run_id=manual__2025-01-31T10:48:14.436080+00:00, run_start_date=2025-01-31 10:48:15.095744+00:00, run_end_date=2025-01-31 10:48:15.126976+00:00, run_duration=0.031232, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 10:48:14.436080+00:00, data_interval_end=2025-01-31 10:48:14.436080+00:00, dag_hash=aeec7285723403828e458d11669d5445
+2025-01-31 10:48:48,631 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:49:55,143 INFO - Heartbeat recovered after 43.57 seconds
+2025-01-31 10:51:35,197 INFO - Heartbeat recovered after 38.11 seconds
+2025-01-31 10:53:15,384 INFO - Heartbeat recovered after 34.21 seconds
+2025-01-31 10:54:20,491 INFO - Heartbeat recovered after 38.20 seconds
+2025-01-31 10:53:48,557 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:58:50,931 INFO - Heartbeat recovered after 36.27 seconds
+2025-01-31 10:58:48,260 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 10:59:46,057 INFO - Heartbeat recovered after 37.30 seconds
+2025-01-31 11:01:06,132 INFO - Heartbeat recovered after 38.27 seconds
+2025-01-31 11:02:01,307 INFO - Heartbeat recovered after 35.26 seconds
+2025-01-31 11:03:31,430 INFO - Heartbeat recovered after 38.25 seconds
+2025-01-31 11:03:52,438 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:05:51,634 INFO - Heartbeat recovered after 38.12 seconds
+2025-01-31 11:07:21,954 INFO - Heartbeat recovered after 37.96 seconds
+2025-01-31 11:08:52,388 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:13:46,054 INFO - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 11:13:44.821287+00:00: manual__2025-01-31T11:13:44.821287+00:00, state:running, queued_at: 2025-01-31 11:13:44.856684+00:00. externally triggered: True> successful
+2025-01-31 11:13:46,058 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 11:13:44.821287+00:00, run_id=manual__2025-01-31T11:13:44.821287+00:00, run_start_date=2025-01-31 11:13:46.028132+00:00, run_end_date=2025-01-31 11:13:46.058076+00:00, run_duration=0.029944, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 11:13:44.821287+00:00, data_interval_end=2025-01-31 11:13:44.821287+00:00, dag_hash=aeec7285723403828e458d11669d5445
+2025-01-31 11:13:52,362 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:17:07,785 INFO - Heartbeat recovered after 38.14 seconds
+2025-01-31 11:16:48,232 INFO - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 11:16:43.293143+00:00: manual__2025-01-31T11:16:43.293143+00:00, state:running, queued_at: 2025-01-31 11:16:43.323723+00:00. externally triggered: True> successful
+2025-01-31 11:16:48,235 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 11:16:43.293143+00:00, run_id=manual__2025-01-31T11:16:43.293143+00:00, run_start_date=2025-01-31 11:16:48.189770+00:00, run_end_date=2025-01-31 11:16:48.235665+00:00, run_duration=0.045895, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 11:16:43.293143+00:00, data_interval_end=2025-01-31 11:16:43.293143+00:00, dag_hash=aeec7285723403828e458d11669d5445
+2025-01-31 11:18:51,645 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:21:29,252 INFO - Heartbeat recovered after 62.81 seconds
+2025-01-31 11:21:23,966 INFO - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 11:21:22.876214+00:00: manual__2025-01-31T11:21:22.876214+00:00, state:running, queued_at: 2025-01-31 11:21:22.923452+00:00. externally triggered: True> successful
+2025-01-31 11:21:23,973 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 11:21:22.876214+00:00, run_id=manual__2025-01-31T11:21:22.876214+00:00, run_start_date=2025-01-31 11:21:23.809670+00:00, run_end_date=2025-01-31 11:21:23.973739+00:00, run_duration=0.164069, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 11:21:22.876214+00:00, data_interval_end=2025-01-31 11:21:22.876214+00:00, dag_hash=aeec7285723403828e458d11669d5445
+2025-01-31 11:22:45,292 INFO - Heartbeat recovered after 35.94 seconds
+2025-01-31 11:24:24,646 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:25:05,269 INFO - Heartbeat recovered after 31.71 seconds
+2025-01-31 11:26:18,791 INFO - Heartbeat recovered after 32.91 seconds
+2025-01-31 11:27:18,809 INFO - Heartbeat recovered after 38.30 seconds
+2025-01-31 11:29:13,952 INFO - Heartbeat recovered after 36.33 seconds
+2025-01-31 11:28:55,230 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:30:54,117 INFO - Heartbeat recovered after 34.52 seconds
+2025-01-31 11:33:24,334 INFO - Heartbeat recovered after 36.26 seconds
+2025-01-31 11:33:54,563 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:34:34,434 INFO - Heartbeat recovered after 37.29 seconds
+2025-01-31 11:35:24,237 INFO - 1 tasks up for execution:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T11:35:17.158630+00:00 [scheduled]>
+2025-01-31 11:35:24,240 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-01-31 11:35:24,243 INFO - Setting the following tasks to queued state:
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T11:35:17.158630+00:00 [scheduled]>
+2025-01-31 11:35:24,248 INFO - Trying to enqueue tasks: [<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-01-31T11:35:17.158630+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-01-31 11:35:24,250 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T11:35:17.158630+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-01-31 11:35:24,253 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T11:35:17.158630+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 11:35:24,275 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-01-31T11:35:17.158630+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-01-31 11:35:53,057 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='manual__2025-01-31T11:35:17.158630+00:00', try_number=1, map_index=-1)
+2025-01-31 11:35:53,066 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-01-31T11:35:17.158630+00:00, map_index=-1, run_start_date=2025-01-31 11:35:50.421824+00:00, run_end_date=2025-01-31 11:35:52.450948+00:00, run_duration=2.029124, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=28, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-01-31 11:35:24.246134+00:00, queued_by_job_id=27, pid=3351
+2025-01-31 11:35:53,105 INFO - Heartbeat recovered after 39.73 seconds
+2025-01-31 11:35:53,567 INFO - Marking run <DagRun brewery_data_pipeline @ 2025-01-31 11:35:17.158630+00:00: manual__2025-01-31T11:35:17.158630+00:00, state:running, queued_at: 2025-01-31 11:35:17.196709+00:00. externally triggered: True> successful
+2025-01-31 11:35:53,570 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-01-31 11:35:17.158630+00:00, run_id=manual__2025-01-31T11:35:17.158630+00:00, run_start_date=2025-01-31 11:35:24.181915+00:00, run_end_date=2025-01-31 11:35:53.570778+00:00, run_duration=29.388863, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-30 11:35:17.158630+00:00, data_interval_end=2025-01-31 11:35:17.158630+00:00, dag_hash=ce2304765204139f7aeda71fd2091116
+2025-01-31 11:37:44,677 INFO - Heartbeat recovered after 30.04 seconds
+2025-01-31 11:38:54,514 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:39:44,855 INFO - Heartbeat recovered after 37.28 seconds
+2025-01-31 11:43:54,474 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:45:05,545 INFO - Heartbeat recovered after 60.45 seconds
+2025-01-31 11:48:00,733 INFO - Heartbeat recovered after 38.26 seconds
+2025-01-31 11:48:56,108 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:49:40,942 INFO - Heartbeat recovered after 34.38 seconds
+2025-01-31 11:52:11,214 INFO - Heartbeat recovered after 38.42 seconds
+2025-01-31 11:52:51,244 INFO - Heartbeat recovered after 35.38 seconds
+2025-01-31 11:53:57,458 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:57:06,636 INFO - Heartbeat recovered after 37.83 seconds
+2025-01-31 11:57:46,757 INFO - Heartbeat recovered after 34.16 seconds
+2025-01-31 11:58:57,375 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 11:59:54,875 INFO - Heartbeat recovered after 44.48 seconds
+2025-01-31 12:01:12,073 INFO - Heartbeat recovered after 38.64 seconds
+2025-01-31 12:02:17,197 INFO - Heartbeat recovered after 34.62 seconds
+2025-01-31 12:02:57,148 INFO - Heartbeat recovered after 34.95 seconds
+2025-01-31 12:04:12,963 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:09:21,064 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:12:31,869 INFO - Heartbeat recovered after 64.26 seconds
+2025-01-31 12:14:21,701 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:19:21,651 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:19:58,561 INFO - Heartbeat recovered after 35.78 seconds
+2025-01-31 12:20:28,615 INFO - Heartbeat recovered after 30.07 seconds
+2025-01-31 12:23:28,972 INFO - Heartbeat recovered after 34.38 seconds
+2025-01-31 12:24:21,538 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:28:14,275 INFO - Heartbeat recovered after 35.07 seconds
+2025-01-31 12:29:54,378 INFO - Heartbeat recovered after 41.36 seconds
+2025-01-31 12:29:54,388 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:29:54,395 INFO - Marked 1 SchedulerJob instances as failed
+2025-01-31 12:30:24,512 INFO - Heartbeat recovered after 36.33 seconds
+2025-01-31 12:31:48,644 INFO - Heartbeat recovered after 42.51 seconds
+2025-01-31 12:34:22,415 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:36:10,036 INFO - Heartbeat recovered after 38.21 seconds
+2025-01-31 12:37:20,111 INFO - Heartbeat recovered after 44.24 seconds
+2025-01-31 12:38:15,179 INFO - Heartbeat recovered after 38.99 seconds
+2025-01-31 12:39:23,413 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:44:24,345 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:49:16,096 INFO - Heartbeat recovered after 37.34 seconds
+2025-01-31 12:49:23,725 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-01-31 12:50:06,182 INFO - Heartbeat recovered after 34.17 seconds
+2025-02-03 05:17:51,558 INFO - Setting next_dagrun for hey_ud_dag to 2025-02-01 23:00:00+00:00, run_after=2025-02-02 23:00:00+00:00
+2025-02-03 05:17:51,763 INFO - Setting next_dagrun for weather_etl_pipeline to 2025-02-02 00:00:00+00:00, run_after=2025-02-03 00:00:00+00:00
+2025-02-03 05:17:52,929 INFO - 2 tasks up for execution:
+	<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-01-31T00:00:00+00:00 [scheduled]>
+	<TaskInstance: hey_ud_dag.print_welcome scheduled__2025-01-30T23:00:00+00:00 [scheduled]>
+2025-02-03 05:17:52,948 INFO - DAG weather_etl_pipeline has 0/16 running and queued tasks
+2025-02-03 05:17:52,951 INFO - DAG hey_ud_dag has 0/16 running and queued tasks
+2025-02-03 05:17:52,955 INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-01-31T00:00:00+00:00 [scheduled]>
+	<TaskInstance: hey_ud_dag.print_welcome scheduled__2025-01-30T23:00:00+00:00 [scheduled]>
+2025-02-03 05:17:52,960 INFO - Trying to enqueue tasks: [<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-01-31T00:00:00+00:00 [scheduled]>, <TaskInstance: hey_ud_dag.print_welcome scheduled__2025-01-30T23:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-02-03 05:17:52,966 INFO - Sending TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='extract_weather_data', run_id='scheduled__2025-01-31T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2025-02-03 05:17:52,973 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'extract_weather_data', 'scheduled__2025-01-31T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-02-03 05:17:52,977 INFO - Sending TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_welcome', run_id='scheduled__2025-01-30T23:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-02-03 05:17:52,979 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_welcome', 'scheduled__2025-01-30T23:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-02-03 05:17:53,223 INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'extract_weather_data', 'scheduled__2025-01-31T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-02-03 05:19:17,472 INFO - Executing command: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_welcome', 'scheduled__2025-01-30T23:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-02-03 05:19:37,904 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='extract_weather_data', run_id='scheduled__2025-01-31T00:00:00+00:00', try_number=1, map_index=-1)
+2025-02-03 05:19:37,906 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_welcome', run_id='scheduled__2025-01-30T23:00:00+00:00', try_number=1, map_index=-1)
+2025-02-03 05:19:37,913 INFO - TaskInstance Finished: dag_id=hey_ud_dag, task_id=print_welcome, run_id=scheduled__2025-01-30T23:00:00+00:00, map_index=-1, run_start_date=2025-02-03 05:19:36.542020+00:00, run_end_date=2025-02-03 05:19:37.436014+00:00, run_duration=0.893994, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=30, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-02-03 05:17:52.958950+00:00, queued_by_job_id=27, pid=7842
+2025-02-03 05:19:37,917 INFO - TaskInstance Finished: dag_id=weather_etl_pipeline, task_id=extract_weather_data, run_id=scheduled__2025-01-31T00:00:00+00:00, map_index=-1, run_start_date=2025-02-03 05:19:04.469965+00:00, run_end_date=2025-02-03 05:19:16.580835+00:00, run_duration=12.11087, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=29, pool=default_pool, queue=default, priority_weight=3, operator=_PythonDecoratedOperator, queued_dttm=2025-02-03 05:17:52.958950+00:00, queued_by_job_id=27, pid=7818
+2025-02-03 05:19:37,931 ERROR - DagFileProcessorManager (PID=626) last sent a heartbeat 143.14 seconds ago! Restarting it
+2025-02-03 05:19:37,937 INFO - Sending 15 to group 626. PIDs of all processes in the group: [626]
+2025-02-03 05:19:37,940 INFO - Sending the signal 15 to group 626
+2025-02-03 05:19:51,029 INFO - Process psutil.Process(pid=626, status='terminated', exitcode=0, started='03:04:49') (626) terminated with exit code 0
+2025-02-03 05:19:51,033 INFO - Launched DagFileProcessorManager with pid: 7850
+2025-02-03 05:19:51,062 INFO - Configured default timezone UTC
+2025-02-03 05:19:51,074 INFO - Heartbeat recovered after 232184.92 seconds
+2025-02-03 05:20:02,986 INFO - Setting next_dagrun for weather_etl_pipeline to 2025-02-03 00:00:00+00:00, run_after=2025-02-04 00:00:00+00:00
+2025-02-03 05:20:02,999 INFO - Setting next_dagrun for hey_ud_dag to 2025-02-02 23:00:00+00:00, run_after=2025-02-03 23:00:00+00:00
+2025-02-03 05:20:03,016 INFO - Setting next_dagrun for brewery_data_pipeline to 2025-02-03 00:00:00+00:00, run_after=2025-02-04 00:00:00+00:00
+2025-02-03 05:20:03,156 INFO - 4 tasks up for execution:
+	<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-02-02T00:00:00+00:00 [scheduled]>
+	<TaskInstance: hey_ud_dag.print_welcome scheduled__2025-02-01T23:00:00+00:00 [scheduled]>
+	<TaskInstance: hey_ud_dag.print_date scheduled__2025-01-30T23:00:00+00:00 [scheduled]>
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data scheduled__2025-02-02T00:00:00+00:00 [scheduled]>
+2025-02-03 05:20:03,158 INFO - DAG weather_etl_pipeline has 0/16 running and queued tasks
+2025-02-03 05:20:03,161 INFO - DAG hey_ud_dag has 0/16 running and queued tasks
+2025-02-03 05:20:03,163 INFO - DAG hey_ud_dag has 1/16 running and queued tasks
+2025-02-03 05:20:03,165 INFO - DAG brewery_data_pipeline has 0/16 running and queued tasks
+2025-02-03 05:20:03,167 INFO - Setting the following tasks to queued state:
+	<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-02-02T00:00:00+00:00 [scheduled]>
+	<TaskInstance: hey_ud_dag.print_welcome scheduled__2025-02-01T23:00:00+00:00 [scheduled]>
+	<TaskInstance: hey_ud_dag.print_date scheduled__2025-01-30T23:00:00+00:00 [scheduled]>
+	<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data scheduled__2025-02-02T00:00:00+00:00 [scheduled]>
+2025-02-03 05:20:03,171 INFO - Trying to enqueue tasks: [<TaskInstance: weather_etl_pipeline.extract_weather_data scheduled__2025-02-02T00:00:00+00:00 [scheduled]>, <TaskInstance: hey_ud_dag.print_welcome scheduled__2025-02-01T23:00:00+00:00 [scheduled]>, <TaskInstance: hey_ud_dag.print_date scheduled__2025-01-30T23:00:00+00:00 [scheduled]>, <TaskInstance: brewery_data_pipeline.fetch_store_brewery_data scheduled__2025-02-02T00:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-02-03 05:20:03,173 INFO - Sending TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='extract_weather_data', run_id='scheduled__2025-02-02T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 3 and queue default
+2025-02-03 05:20:03,175 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'extract_weather_data', 'scheduled__2025-02-02T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-02-03 05:20:03,177 INFO - Sending TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_welcome', run_id='scheduled__2025-02-01T23:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
+2025-02-03 05:20:03,179 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_welcome', 'scheduled__2025-02-01T23:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-02-03 05:20:03,182 INFO - Sending TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_date', run_id='scheduled__2025-01-30T23:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-02-03 05:20:03,184 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_date', 'scheduled__2025-01-30T23:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-02-03 05:20:03,186 INFO - Sending TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='scheduled__2025-02-02T00:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-02-03 05:20:03,187 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'scheduled__2025-02-02T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-02-03 05:20:03,208 INFO - Executing command: ['airflow', 'tasks', 'run', 'weather_etl_pipeline', 'extract_weather_data', 'scheduled__2025-02-02T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/etl_weather.py']
+2025-02-03 05:20:51,158 INFO - Executing command: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_welcome', 'scheduled__2025-02-01T23:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-02-03 05:21:16,166 INFO - Executing command: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_date', 'scheduled__2025-01-30T23:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-02-03 05:21:39,702 INFO - Executing command: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'scheduled__2025-02-02T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py']
+2025-02-03 05:22:20,025 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='weather_etl_pipeline', task_id='extract_weather_data', run_id='scheduled__2025-02-02T00:00:00+00:00', try_number=1, map_index=-1)
+2025-02-03 05:22:20,027 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_welcome', run_id='scheduled__2025-02-01T23:00:00+00:00', try_number=1, map_index=-1)
+2025-02-03 05:22:20,030 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_date', run_id='scheduled__2025-01-30T23:00:00+00:00', try_number=1, map_index=-1)
+2025-02-03 05:22:20,031 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='brewery_data_pipeline', task_id='fetch_store_brewery_data', run_id='scheduled__2025-02-02T00:00:00+00:00', try_number=1, map_index=-1)
+2025-02-03 05:22:20,040 INFO - TaskInstance Finished: dag_id=hey_ud_dag, task_id=print_date, run_id=scheduled__2025-01-30T23:00:00+00:00, map_index=-1, run_start_date=2025-02-03 05:21:37.940411+00:00, run_end_date=2025-02-03 05:21:39.280851+00:00, run_duration=1.34044, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=33, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-02-03 05:20:03.169825+00:00, queued_by_job_id=27, pid=8031
+2025-02-03 05:22:20,043 INFO - TaskInstance Finished: dag_id=hey_ud_dag, task_id=print_welcome, run_id=scheduled__2025-02-01T23:00:00+00:00, map_index=-1, run_start_date=2025-02-03 05:21:51.814665+00:00, run_end_date=2025-02-03 05:21:15.704536+00:00, run_duration=-36.110129, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=32, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2025-02-03 05:20:03.169825+00:00, queued_by_job_id=27, pid=7907
+2025-02-03 05:22:20,046 INFO - TaskInstance Finished: dag_id=weather_etl_pipeline, task_id=extract_weather_data, run_id=scheduled__2025-02-02T00:00:00+00:00, map_index=-1, run_start_date=2025-02-03 05:20:39.972643+00:00, run_end_date=2025-02-03 05:20:50.510981+00:00, run_duration=10.538338, state=failed, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=31, pool=default_pool, queue=default, priority_weight=3, operator=_PythonDecoratedOperator, queued_dttm=2025-02-03 05:20:03.169825+00:00, queued_by_job_id=27, pid=7887
+2025-02-03 05:22:20,049 INFO - TaskInstance Finished: dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=scheduled__2025-02-02T00:00:00+00:00, map_index=-1, run_start_date=2025-02-03 05:22:17.679327+00:00, run_end_date=2025-02-03 05:22:19.064655+00:00, run_duration=1.385328, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=34, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-02-03 05:20:03.169825+00:00, queued_by_job_id=27, pid=8054
+2025-02-03 05:22:20,063 ERROR - DagFileProcessorManager (PID=7850) last sent a heartbeat 137.14 seconds ago! Restarting it
+2025-02-03 05:22:20,067 INFO - Sending 15 to group 7850. PIDs of all processes in the group: [7850]
+2025-02-03 05:22:20,070 INFO - Sending the signal 15 to group 7850
+2025-02-03 05:22:32,793 INFO - Process psutil.Process(pid=7850, status='terminated', exitcode=0, started='05:19:50') (7850) terminated with exit code 0
+2025-02-03 05:22:32,808 INFO - Launched DagFileProcessorManager with pid: 8062
+2025-02-03 05:22:32,859 INFO - Configured default timezone UTC
+2025-02-03 05:22:32,862 INFO - Heartbeat recovered after 161.81 seconds
+2025-02-03 05:22:32,880 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-03 05:23:17,010 INFO - Marking run <DagRun brewery_data_pipeline @ 2025-02-02 00:00:00+00:00: scheduled__2025-02-02T00:00:00+00:00, state:running, queued_at: 2025-02-03 05:20:03.004863+00:00. externally triggered: False> successful
+2025-02-03 05:23:17,013 INFO - DagRun Finished: dag_id=brewery_data_pipeline, execution_date=2025-02-02 00:00:00+00:00, run_id=scheduled__2025-02-02T00:00:00+00:00, run_start_date=2025-02-03 05:20:03.048707+00:00, run_end_date=2025-02-03 05:23:17.013353+00:00, run_duration=193.964646, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2025-02-02 00:00:00+00:00, data_interval_end=2025-02-03 00:00:00+00:00, dag_hash=ce2304765204139f7aeda71fd2091116
+2025-02-03 05:23:17,023 INFO - Setting next_dagrun for brewery_data_pipeline to 2025-02-03 00:00:00+00:00, run_after=2025-02-04 00:00:00+00:00
+2025-02-03 05:23:17,035 INFO - Marking run <DagRun hey_ud_dag @ 2025-01-30 23:00:00+00:00: scheduled__2025-01-30T23:00:00+00:00, state:running, queued_at: 2025-02-03 05:17:51.509973+00:00. externally triggered: False> successful
+2025-02-03 05:23:17,036 INFO - DagRun Finished: dag_id=hey_ud_dag, execution_date=2025-01-30 23:00:00+00:00, run_id=scheduled__2025-01-30T23:00:00+00:00, run_start_date=2025-02-03 05:17:52.332548+00:00, run_end_date=2025-02-03 05:23:17.036858+00:00, run_duration=324.70431, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2025-01-30 23:00:00+00:00, data_interval_end=2025-01-31 23:00:00+00:00, dag_hash=ab242d6892e263c657d2549a680f76a0
+2025-02-03 05:23:17,043 INFO - Setting next_dagrun for hey_ud_dag to 2025-02-01 23:00:00+00:00, run_after=2025-02-02 23:00:00+00:00
+2025-02-03 05:23:17,050 ERROR - Marking run <DagRun weather_etl_pipeline @ 2025-01-31 00:00:00+00:00: scheduled__2025-01-31T00:00:00+00:00, state:running, queued_at: 2025-02-03 05:17:51.757241+00:00. externally triggered: False> failed
+2025-02-03 05:23:17,053 INFO - DagRun Finished: dag_id=weather_etl_pipeline, execution_date=2025-01-31 00:00:00+00:00, run_id=scheduled__2025-01-31T00:00:00+00:00, run_start_date=2025-02-03 05:17:52.332947+00:00, run_end_date=2025-02-03 05:23:17.053342+00:00, run_duration=324.720395, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2025-01-31 00:00:00+00:00, data_interval_end=2025-02-01 00:00:00+00:00, dag_hash=177d7a241483b43fcf3596b1a4912f6b
+2025-02-03 05:23:17,059 INFO - Setting next_dagrun for weather_etl_pipeline to 2025-02-02 00:00:00+00:00, run_after=2025-02-03 00:00:00+00:00
+2025-02-03 05:22:40,474 INFO - 1 tasks up for execution:
+	<TaskInstance: hey_ud_dag.print_date scheduled__2025-02-01T23:00:00+00:00 [scheduled]>
+2025-02-03 05:22:40,476 INFO - DAG hey_ud_dag has 0/16 running and queued tasks
+2025-02-03 05:22:40,478 INFO - Setting the following tasks to queued state:
+	<TaskInstance: hey_ud_dag.print_date scheduled__2025-02-01T23:00:00+00:00 [scheduled]>
+2025-02-03 05:22:40,482 INFO - Trying to enqueue tasks: [<TaskInstance: hey_ud_dag.print_date scheduled__2025-02-01T23:00:00+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+2025-02-03 05:22:40,484 INFO - Sending TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_date', run_id='scheduled__2025-02-01T23:00:00+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
+2025-02-03 05:22:40,486 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_date', 'scheduled__2025-02-01T23:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-02-03 05:22:41,395 INFO - Executing command: ['airflow', 'tasks', 'run', 'hey_ud_dag', 'print_date', 'scheduled__2025-02-01T23:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/exampledag.py']
+2025-02-03 05:23:11,308 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='hey_ud_dag', task_id='print_date', run_id='scheduled__2025-02-01T23:00:00+00:00', try_number=1, map_index=-1)
+2025-02-03 05:23:11,314 INFO - TaskInstance Finished: dag_id=hey_ud_dag, task_id=print_date, run_id=scheduled__2025-02-01T23:00:00+00:00, map_index=-1, run_start_date=2025-02-03 05:23:10.163327+00:00, run_end_date=2025-02-03 05:23:10.840411+00:00, run_duration=0.677084, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=0, job_id=35, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2025-02-03 05:22:40.481279+00:00, queued_by_job_id=27, pid=8083
+2025-02-03 05:23:11,351 INFO - Heartbeat recovered after 38.51 seconds
+2025-02-03 05:23:14,395 INFO - Setting next_dagrun for weather_etl_pipeline to 2025-02-03 00:00:00+00:00, run_after=2025-02-04 00:00:00+00:00
+2025-02-03 05:23:14,442 INFO - Marking run <DagRun hey_ud_dag @ 2025-02-01 23:00:00+00:00: scheduled__2025-02-01T23:00:00+00:00, state:running, queued_at: 2025-02-03 05:20:02.991343+00:00. externally triggered: False> successful
+2025-02-03 05:23:14,445 INFO - DagRun Finished: dag_id=hey_ud_dag, execution_date=2025-02-01 23:00:00+00:00, run_id=scheduled__2025-02-01T23:00:00+00:00, run_start_date=2025-02-03 05:20:03.047784+00:00, run_end_date=2025-02-03 05:23:14.445941+00:00, run_duration=191.398157, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2025-02-01 23:00:00+00:00, data_interval_end=2025-02-02 23:00:00+00:00, dag_hash=ebaf72a0321aa3db83f0773665041a4e
+2025-02-03 05:23:14,451 INFO - Setting next_dagrun for hey_ud_dag to 2025-02-02 23:00:00+00:00, run_after=2025-02-03 23:00:00+00:00
+2025-02-03 05:23:14,456 ERROR - Marking run <DagRun weather_etl_pipeline @ 2025-02-02 00:00:00+00:00: scheduled__2025-02-02T00:00:00+00:00, state:running, queued_at: 2025-02-03 05:20:02.973448+00:00. externally triggered: False> failed
+2025-02-03 05:23:14,459 INFO - DagRun Finished: dag_id=weather_etl_pipeline, execution_date=2025-02-02 00:00:00+00:00, run_id=scheduled__2025-02-02T00:00:00+00:00, run_start_date=2025-02-03 05:20:03.049309+00:00, run_end_date=2025-02-03 05:23:14.459117+00:00, run_duration=191.409808, state=failed, external_trigger=False, run_type=scheduled, data_interval_start=2025-02-02 00:00:00+00:00, data_interval_end=2025-02-03 00:00:00+00:00, dag_hash=177d7a241483b43fcf3596b1a4912f6b
+2025-02-03 05:23:14,464 INFO - Setting next_dagrun for weather_etl_pipeline to 2025-02-03 00:00:00+00:00, run_after=2025-02-04 00:00:00+00:00
+2025-02-03 05:24:01,989 INFO - Heartbeat recovered after 41.92 seconds
+2025-02-03 05:25:22,147 INFO - Heartbeat recovered after 45.42 seconds
+2025-02-03 05:27:34,091 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-03 05:30:56,730 INFO - Heartbeat recovered after 52.80 seconds
+2025-02-03 05:32:39,739 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-03 05:35:32,954 INFO - Heartbeat recovered after 41.77 seconds
+2025-02-03 05:36:31,542 INFO - Heartbeat recovered after 45.62 seconds
+2025-02-03 05:37:43,238 INFO - Heartbeat recovered after 35.02 seconds
+2025-02-03 05:37:39,641 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-03 05:39:36,513 INFO - Heartbeat recovered after 48.82 seconds
+2025-02-03 05:41:28,542 INFO - Heartbeat recovered after 38.92 seconds
+2025-02-03 05:42:43,060 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-03 05:43:28,692 INFO - Heartbeat recovered after 41.78 seconds
+2025-02-03 05:43:33,795 INFO - Heartbeat recovered after 41.85 seconds
+2025-02-03 05:43:38,743 INFO - Heartbeat recovered after 41.76 seconds
+2025-02-03 05:44:24,684 INFO - Heartbeat recovered after 47.97 seconds
+2025-02-03 05:47:04,521 INFO - Heartbeat recovered after 44.49 seconds
+2025-02-03 05:47:34,726 INFO - Heartbeat recovered after 30.34 seconds
+2025-02-03 05:47:46,358 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-03 05:49:29,887 INFO - Heartbeat recovered after 38.28 seconds
+2025-02-03 05:50:09,377 INFO - Heartbeat recovered after 39.67 seconds
+2025-02-03 05:51:19,593 INFO - Heartbeat recovered after 39.60 seconds
+2025-02-03 05:53:20,104 INFO - Heartbeat recovered after 39.46 seconds
+2025-02-03 05:52:49,141 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-03 05:54:20,124 INFO - Heartbeat recovered after 54.53 seconds
+2025-02-03 05:56:20,351 INFO - Heartbeat recovered after 54.67 seconds
+2025-02-03 05:57:00,138 INFO - Heartbeat recovered after 39.94 seconds
+2025-02-03 05:58:10,809 INFO - Heartbeat recovered after 40.67 seconds
+2025-02-03 05:57:59,857 INFO - Adopting or resetting orphaned tasks for active dag runs
+2025-02-03 05:59:30,438 INFO - Heartbeat recovered after 44.00 seconds
+2025-02-03 06:00:55,556 INFO - Heartbeat recovered after 30.10 seconds
