@@ -1,0 +1,31 @@
+[2025-02-05T14:28:12.318+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T14:28:12.325+0530] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-02-05T08:58:09.766391+00:00 [queued]>
+[2025-02-05T14:28:12.330+0530] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-02-05T08:58:09.766391+00:00 [queued]>
+[2025-02-05T14:28:12.330+0530] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-02-05T14:28:12.345+0530] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_store_brewery_data> on 2025-02-05 08:58:09.766391+00:00
+[2025-02-05T14:28:12.349+0530] {standard_task_runner.py:72} INFO - Started process 297243 to run task
+[2025-02-05T14:28:12.352+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'brewery_data_pipeline', 'fetch_store_brewery_data', 'manual__2025-02-05T08:58:09.766391+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py', '--cfg-path', '/tmp/tmpiivpajwc']
+[2025-02-05T14:28:12.353+0530] {standard_task_runner.py:105} INFO - Job 55: Subtask fetch_store_brewery_data
+[2025-02-05T14:28:12.384+0530] {task_command.py:467} INFO - Running <TaskInstance: brewery_data_pipeline.fetch_store_brewery_data manual__2025-02-05T08:58:09.766391+00:00 [running]> on host umang-Latitude-7490
+[2025-02-05T14:28:12.437+0530] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='brewery_data_pipeline' AIRFLOW_CTX_TASK_ID='fetch_store_brewery_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-05T08:58:09.766391+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-05T08:58:09.766391+00:00'
+[2025-02-05T14:28:12.438+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-05T14:28:12.438+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-05T14:28:12.439+0530] {logging_mixin.py:190} INFO - Current task name:fetch_store_brewery_data state:running start_date:2025-02-05 08:58:12.325770+00:00
+[2025-02-05T14:28:12.439+0530] {logging_mixin.py:190} INFO - Dag name:brewery_data_pipeline and current dag run status:running
+[2025-02-05T14:28:12.439+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T14:28:13.075+0530] {logging_mixin.py:190} INFO - Sample API Response: [{'id': '5128df48-79fc-4f0f-8b52-d06be54d0cec', 'name': '(405) Brewing Co', 'brewery_type': 'micro', 'address_1': '1716 Topeka St', 'address_2': None, 'address_3': None, 'city': 'Norman', 'state_province': 'Oklahoma', 'postal_code': '73069-8224', 'country': 'United States', 'longitude': '-97.46818222', 'latitude': '35.25738891', 'phone': '4058160490', 'website_url': 'http://www.405brewing.com', 'state': 'Oklahoma', 'street': '1716 Topeka St'}, {'id': '9c5a66c8-cc13-416f-a5d9-0a769c87d318', 'name': '(512) Brewing Co', 'brewery_type': 'micro', 'address_1': '407 Radam Ln Ste F200', 'address_2': None, 'address_3': None, 'city': 'Austin', 'state_province': 'Texas', 'postal_code': '78745-1197', 'country': 'United States', 'longitude': None, 'latitude': None, 'phone': '5129211545', 'website_url': 'http://www.512brewing.com', 'state': 'Texas', 'street': '407 Radam Ln Ste F200'}]
+[2025-02-05T14:28:13.194+0530] {__init__.py:149} INFO - package: mysql.connector.plugins
+[2025-02-05T14:28:13.194+0530] {__init__.py:150} INFO - plugin_name: caching_sha2_password
+[2025-02-05T14:28:13.194+0530] {__init__.py:154} INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+[2025-02-05T14:28:13.229+0530] {logging_mixin.py:190} INFO - DataFrame Columns: ['id', 'name', 'brewery_type', 'address_1', 'address_2', 'address_3', 'city', 'state_province', 'postal_code', 'country', 'longitude', 'latitude', 'phone', 'website_url', 'state', 'street']
+[2025-02-05T14:28:13.232+0530] {logging_mixin.py:190} INFO - MySQL Error: Failed processing format-parameters; Python 'tuple' cannot be converted to a MySQL type
+[2025-02-05T14:28:13.234+0530] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-05T14:28:13.240+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T14:28:13.241+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=brewery_data_pipeline, task_id=fetch_store_brewery_data, run_id=manual__2025-02-05T08:58:09.766391+00:00, execution_date=20250205T085809, start_date=20250205T085812, end_date=20250205T085813
+[2025-02-05T14:28:13.256+0530] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-05T14:28:13.257+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-05T14:28:13.257+0530] {logging_mixin.py:190} INFO - Dag name:brewery_data_pipeline queued_at:2025-02-05 08:58:09.774758+00:00
+[2025-02-05T14:28:13.257+0530] {logging_mixin.py:190} INFO - Task hostname:umang-Latitude-7490 operator:PythonOperator
+[2025-02-05T14:28:13.287+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-05T14:28:13.302+0530] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T14:28:13.303+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

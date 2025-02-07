@@ -1,10 +1,16 @@
-[2025-01-31 10:38:47 +0000] [625] [INFO] Starting gunicorn 23.0.0
-[2025-01-31 10:38:47 +0000] [625] [INFO] Listening at: http://[::]:8793 (625)
-[2025-01-31 10:38:47 +0000] [625] [INFO] Using worker: sync
-[2025-01-31 10:38:47 +0000] [627] [INFO] Booting worker with pid: 627
-[2025-01-31 10:38:47 +0000] [628] [INFO] Booting worker with pid: 628
-[2025-01-31 15:50:49 +0000] [625] [CRITICAL] WORKER TIMEOUT (pid:628)
-[2025-02-03 05:17:38 +0000] [628] [INFO] Worker exiting (pid: 628)
-[2025-02-03 05:17:38 +0000] [625] [ERROR] Worker (pid:628) exited with code 1
-[2025-02-03 05:17:38 +0000] [625] [ERROR] Worker (pid:628) exited with code 1.
-[2025-02-03 05:17:39 +0000] [7566] [INFO] Booting worker with pid: 7566
+[2025-02-05 12:40:42 +0530] [283287] [INFO] Starting gunicorn 23.0.0
+[2025-02-05 12:40:42 +0530] [283287] [ERROR] Connection in use: ('::', 8793)
+[2025-02-05 12:40:42 +0530] [283287] [ERROR] connection to ('::', 8793) failed: [Errno 98] Address already in use
+[2025-02-05 12:40:43 +0530] [283287] [ERROR] Connection in use: ('::', 8793)
+[2025-02-05 12:40:43 +0530] [283287] [ERROR] connection to ('::', 8793) failed: [Errno 98] Address already in use
+[2025-02-05 12:40:44 +0530] [283287] [ERROR] Connection in use: ('::', 8793)
+[2025-02-05 12:40:44 +0530] [283287] [ERROR] connection to ('::', 8793) failed: [Errno 98] Address already in use
+[2025-02-05 12:40:45 +0530] [283287] [ERROR] Connection in use: ('::', 8793)
+[2025-02-05 12:40:45 +0530] [283287] [ERROR] connection to ('::', 8793) failed: [Errno 98] Address already in use
+[2025-02-05 12:40:46 +0530] [283287] [ERROR] Connection in use: ('::', 8793)
+[2025-02-05 12:40:46 +0530] [283287] [ERROR] connection to ('::', 8793) failed: [Errno 98] Address already in use
+[2025-02-05 12:40:47 +0530] [283287] [ERROR] Can't connect to ('::', 8793)
+[2025-02-07 10:35:44 +0530] [254561] [INFO] Worker exiting (pid: 254561)
+[2025-02-07 10:35:44 +0530] [254560] [INFO] Handling signal: term
+[2025-02-07 10:35:44 +0530] [254563] [INFO] Worker exiting (pid: 254563)
+[2025-02-07 10:35:44 +0530] [254560] [INFO] Shutting down: Master

@@ -1,0 +1,1317 @@
+[2025-02-04T12:22:40.347+0530] {processor.py:186} INFO - Started process (PID=102917) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:22:40.347+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:22:40.351+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.351+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:22:40.360+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:22:40.463+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.461+0530] {override.py:1912} INFO - Created Permission View: can edit on DAG:hey_ud_dag
+[2025-02-04T12:22:40.485+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.484+0530] {override.py:1912} INFO - Created Permission View: can read on DAG:hey_ud_dag
+[2025-02-04T12:22:40.501+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.501+0530] {override.py:1912} INFO - Created Permission View: can delete on DAG:hey_ud_dag
+[2025-02-04T12:22:40.519+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.518+0530] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:hey_ud_dag
+[2025-02-04T12:22:40.529+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.529+0530] {override.py:1912} INFO - Created Permission View: can read on DAG Run:hey_ud_dag
+[2025-02-04T12:22:40.539+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.538+0530] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:hey_ud_dag
+[2025-02-04T12:22:40.548+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.548+0530] {override.py:1912} INFO - Created Permission View: can create on DAG Run:hey_ud_dag
+[2025-02-04T12:22:40.548+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.548+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:22:40.560+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.560+0530] {dag.py:3262} INFO - Creating ORM DAG for hey_ud_dag
+[2025-02-04T12:22:40.570+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:22:40.570+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:22:40.599+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.258 seconds
+[2025-02-04T12:23:50.202+0530] {processor.py:186} INFO - Started process (PID=103210) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:23:50.205+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:23:50.207+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:23:50.207+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:23:50.216+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:23:50.229+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:23:50.229+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:23:50.247+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:23:50.247+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:23:50.267+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.070 seconds
+[2025-02-04T12:24:49.953+0530] {processor.py:186} INFO - Started process (PID=103507) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:24:49.955+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:24:49.957+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:24:49.957+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:24:49.967+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:24:49.981+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:24:49.981+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:24:50.001+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:24:50.000+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:24:50.029+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.081 seconds
+[2025-02-04T12:25:49.914+0530] {processor.py:186} INFO - Started process (PID=103883) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:25:49.917+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:25:49.919+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:25:49.919+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:25:49.930+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:25:49.945+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:25:49.945+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:25:49.963+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:25:49.963+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:25:49.990+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.082 seconds
+[2025-02-04T12:26:50.977+0530] {processor.py:186} INFO - Started process (PID=103977) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:26:50.979+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:26:50.982+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:26:50.981+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:26:50.994+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:26:51.011+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:26:51.010+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:26:51.029+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:26:51.029+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:26:51.049+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.079 seconds
+[2025-02-04T12:27:49.670+0530] {processor.py:186} INFO - Started process (PID=104300) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:27:49.672+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:27:49.674+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:27:49.674+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:27:49.686+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:27:49.700+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:27:49.700+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:27:49.718+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:27:49.718+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:27:49.739+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T12:29:06.256+0530] {processor.py:186} INFO - Started process (PID=104862) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:29:06.257+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:29:06.259+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:29:06.259+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:29:06.269+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:29:06.283+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:29:06.283+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:29:06.303+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:29:06.302+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:29:06.324+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T12:30:12.465+0530] {processor.py:186} INFO - Started process (PID=105339) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:30:12.468+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:30:12.470+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:30:12.470+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:30:12.482+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:30:12.498+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:30:12.498+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:30:12.517+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:30:12.517+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:30:12.553+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.094 seconds
+[2025-02-04T12:31:16.126+0530] {processor.py:186} INFO - Started process (PID=105777) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:31:16.128+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:31:16.131+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:31:16.131+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:31:16.144+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:31:16.158+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:31:16.158+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:31:16.178+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:31:16.178+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:31:16.200+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.081 seconds
+[2025-02-04T12:32:20.689+0530] {processor.py:186} INFO - Started process (PID=106235) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:32:20.691+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:32:20.694+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:32:20.694+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:32:20.707+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:32:20.723+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:32:20.723+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:32:20.742+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:32:20.742+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:32:20.765+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.083 seconds
+[2025-02-04T12:33:25.837+0530] {processor.py:186} INFO - Started process (PID=106650) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:33:25.840+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:33:25.846+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:33:25.845+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:33:25.869+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:33:25.885+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:33:25.885+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:33:25.903+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:33:25.902+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:33:25.924+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.094 seconds
+[2025-02-04T12:34:34.459+0530] {processor.py:186} INFO - Started process (PID=106886) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:34:34.461+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:34:34.463+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:34:34.463+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:34:34.475+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:34:34.490+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:34:34.489+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:34:34.509+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:34:34.509+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:34:34.529+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T12:35:43.619+0530] {processor.py:186} INFO - Started process (PID=107387) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:35:43.621+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:35:43.624+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:35:43.623+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:35:43.637+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:35:43.653+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:35:43.652+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:35:43.672+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:35:43.672+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:35:43.693+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.081 seconds
+[2025-02-04T12:36:45.631+0530] {processor.py:186} INFO - Started process (PID=107809) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:36:45.633+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:36:45.636+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:36:45.635+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:36:45.647+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:36:45.661+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:36:45.661+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:36:45.680+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:36:45.680+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:36:45.702+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T12:37:49.011+0530] {processor.py:186} INFO - Started process (PID=108132) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:37:49.014+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:37:49.016+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:37:49.016+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:37:49.029+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:37:49.043+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:37:49.043+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:37:49.062+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:37:49.061+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:37:49.082+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.079 seconds
+[2025-02-04T12:38:50.039+0530] {processor.py:186} INFO - Started process (PID=108199) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:38:50.040+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:38:50.041+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:38:50.041+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:38:50.053+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:38:50.071+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:38:50.070+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:38:50.092+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:38:50.092+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:38:50.124+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.091 seconds
+[2025-02-04T12:39:53.470+0530] {processor.py:186} INFO - Started process (PID=108272) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:39:53.473+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:39:53.475+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:39:53.475+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:39:53.486+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:39:53.500+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:39:53.500+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:39:53.519+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:39:53.519+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:39:53.539+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T12:41:01.192+0530] {processor.py:186} INFO - Started process (PID=108644) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:41:01.195+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:41:01.197+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:41:01.197+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:41:01.209+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:41:01.227+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:41:01.227+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:41:01.246+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:41:01.246+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:41:01.267+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T12:42:03.076+0530] {processor.py:186} INFO - Started process (PID=108782) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:42:03.078+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:42:03.080+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:42:03.080+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:42:03.090+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:42:03.104+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:42:03.104+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:42:03.123+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:42:03.123+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:42:03.144+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.073 seconds
+[2025-02-04T12:43:04.754+0530] {processor.py:186} INFO - Started process (PID=109121) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:43:04.756+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:43:04.758+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:43:04.757+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:43:04.769+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:43:04.782+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:43:04.782+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:43:04.808+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:43:04.808+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:43:04.832+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.084 seconds
+[2025-02-04T12:44:09.698+0530] {processor.py:186} INFO - Started process (PID=109469) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:44:09.701+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:44:09.703+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:44:09.703+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:44:09.719+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:44:09.735+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:44:09.735+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:44:09.754+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:44:09.754+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:44:09.778+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.089 seconds
+[2025-02-04T12:45:12.472+0530] {processor.py:186} INFO - Started process (PID=109674) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:45:12.475+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:45:12.477+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:45:12.477+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:45:12.493+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:45:12.508+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:45:12.508+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:45:12.528+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:45:12.528+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:45:12.556+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.092 seconds
+[2025-02-04T12:46:19.182+0530] {processor.py:186} INFO - Started process (PID=109864) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:46:19.185+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:46:19.187+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:46:19.186+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:46:19.201+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:46:19.221+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:46:19.221+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:46:19.252+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:46:19.252+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:46:19.292+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.116 seconds
+[2025-02-04T12:48:08.884+0530] {processor.py:186} INFO - Started process (PID=110246) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:48:08.886+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:48:08.888+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:48:08.888+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:48:08.900+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:48:08.914+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:48:08.913+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:48:08.932+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:48:08.932+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:48:08.952+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T12:49:13.554+0530] {processor.py:186} INFO - Started process (PID=110346) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:49:13.556+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:49:13.557+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:49:13.557+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:49:13.567+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:49:13.582+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:49:13.581+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:49:13.600+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:49:13.600+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:49:13.621+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.073 seconds
+[2025-02-04T12:50:13.717+0530] {processor.py:186} INFO - Started process (PID=110420) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:50:13.719+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:50:13.720+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:50:13.720+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:50:13.732+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:50:13.748+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:50:13.748+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:50:13.768+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:50:13.768+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:50:13.789+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T12:51:15.652+0530] {processor.py:186} INFO - Started process (PID=110481) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:51:15.654+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:51:15.656+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:51:15.655+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:51:15.666+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:51:15.683+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:51:15.682+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:51:15.702+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:51:15.702+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:51:15.723+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T12:52:16.712+0530] {processor.py:186} INFO - Started process (PID=110543) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:52:16.715+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:52:16.716+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:52:16.716+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:52:16.727+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:52:16.742+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:52:16.742+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:52:16.762+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:52:16.761+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:52:16.782+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T12:53:17.622+0530] {processor.py:186} INFO - Started process (PID=110623) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:53:17.624+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:53:17.625+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:53:17.625+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:53:17.636+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:53:17.651+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:53:17.651+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:53:17.670+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:53:17.670+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:53:17.691+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T12:54:18.094+0530] {processor.py:186} INFO - Started process (PID=110686) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:54:18.096+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:54:18.098+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:54:18.097+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:54:18.108+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:54:18.124+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:54:18.124+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:54:18.144+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:54:18.143+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:54:18.164+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T12:55:18.868+0530] {processor.py:186} INFO - Started process (PID=110800) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:55:18.870+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:55:18.872+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:55:18.871+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:55:18.882+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:55:18.897+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:55:18.897+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:55:18.916+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:55:18.916+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:55:18.938+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T12:56:19.951+0530] {processor.py:186} INFO - Started process (PID=110862) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:56:19.953+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:56:19.954+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:56:19.954+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:56:19.965+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:56:19.981+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:56:19.981+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:56:20.000+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:56:20.000+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:56:20.020+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T12:57:19.187+0530] {processor.py:186} INFO - Started process (PID=110922) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:57:19.190+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:57:19.191+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:57:19.191+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:57:19.203+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:57:19.219+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:57:19.219+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:57:19.239+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:57:19.238+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:57:19.259+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T12:58:22.376+0530] {processor.py:186} INFO - Started process (PID=110986) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:58:22.379+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:58:22.380+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:58:22.380+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:58:22.392+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:58:22.408+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:58:22.408+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:58:22.427+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:58:22.427+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:58:22.448+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T12:59:21.525+0530] {processor.py:186} INFO - Started process (PID=111047) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:59:21.527+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T12:59:21.528+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:59:21.528+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:59:21.539+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T12:59:21.555+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:59:21.555+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T12:59:21.574+0530] {logging_mixin.py:190} INFO - [2025-02-04T12:59:21.574+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T12:59:21.595+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:00:21.812+0530] {processor.py:186} INFO - Started process (PID=111116) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:00:21.814+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:00:21.815+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:00:21.815+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:00:21.824+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:00:21.838+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:00:21.838+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:00:21.856+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:00:21.856+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:00:21.877+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.071 seconds
+[2025-02-04T13:01:23.588+0530] {processor.py:186} INFO - Started process (PID=111176) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:01:23.590+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:01:23.592+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:01:23.591+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:01:23.602+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:01:23.616+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:01:23.616+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:01:23.636+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:01:23.635+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:01:23.656+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T13:02:25.299+0530] {processor.py:186} INFO - Started process (PID=111238) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:02:25.302+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:02:25.303+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:02:25.302+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:02:25.314+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:02:25.329+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:02:25.329+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:02:25.348+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:02:25.348+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:02:25.488+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.195 seconds
+[2025-02-04T13:03:35.569+0530] {processor.py:186} INFO - Started process (PID=111309) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:03:35.571+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:03:35.573+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:03:35.572+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:03:35.584+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:03:35.599+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:03:35.599+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:03:35.619+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:03:35.619+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:03:35.640+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:04:40.647+0530] {processor.py:186} INFO - Started process (PID=111369) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:04:40.649+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:04:40.651+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:04:40.650+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:04:40.661+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:04:40.676+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:04:40.676+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:04:40.695+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:04:40.695+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:04:40.716+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T13:05:47.423+0530] {processor.py:186} INFO - Started process (PID=111438) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:05:47.426+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:05:47.427+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:05:47.427+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:05:47.438+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:05:47.453+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:05:47.453+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:05:47.596+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:05:47.596+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:05:47.621+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.204 seconds
+[2025-02-04T13:06:55.047+0530] {processor.py:186} INFO - Started process (PID=111502) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:06:55.050+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:06:55.051+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:06:55.051+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:06:55.062+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:06:55.077+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:06:55.077+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:06:55.096+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:06:55.096+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:06:55.237+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.196 seconds
+[2025-02-04T13:08:08.536+0530] {processor.py:186} INFO - Started process (PID=111573) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:08:08.538+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:08:08.539+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:08:08.539+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:08:08.550+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:08:08.565+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:08:08.565+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:08:08.584+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:08:08.584+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:08:08.605+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:09:16.114+0530] {processor.py:186} INFO - Started process (PID=111635) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:09:16.116+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:09:16.117+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:09:16.117+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:09:16.128+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:09:16.144+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:09:16.144+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:09:16.291+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:09:16.291+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:09:16.315+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.207 seconds
+[2025-02-04T13:10:26.963+0530] {processor.py:186} INFO - Started process (PID=111708) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:10:26.966+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:10:26.968+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:10:26.968+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:10:26.984+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:10:27.000+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:10:27.000+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:10:27.020+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:10:27.019+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:10:27.042+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.087 seconds
+[2025-02-04T13:11:26.317+0530] {processor.py:186} INFO - Started process (PID=111769) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:11:26.318+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:11:26.320+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:11:26.319+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:11:26.330+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:11:26.346+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:11:26.346+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:11:26.365+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:11:26.365+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:11:26.386+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T13:12:47.901+0530] {processor.py:186} INFO - Started process (PID=111855) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:12:47.903+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:12:47.905+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:12:47.905+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:12:47.916+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:12:47.932+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:12:47.931+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:12:47.951+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:12:47.951+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:12:47.971+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:13:47.230+0530] {processor.py:186} INFO - Started process (PID=111920) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:13:47.232+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:13:47.233+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:13:47.233+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:13:47.244+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:13:47.259+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:13:47.259+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:13:47.278+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:13:47.278+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:13:47.298+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T13:14:46.911+0530] {processor.py:186} INFO - Started process (PID=111980) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:14:46.913+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:14:46.915+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:14:46.914+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:14:46.927+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:14:46.944+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:14:46.944+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:14:46.964+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:14:46.964+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:14:46.985+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T13:15:47.322+0530] {processor.py:186} INFO - Started process (PID=112045) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:15:47.324+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:15:47.326+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:15:47.325+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:15:47.336+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:15:47.351+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:15:47.351+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:15:47.370+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:15:47.370+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:15:47.391+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T13:16:46.327+0530] {processor.py:186} INFO - Started process (PID=112106) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:16:46.330+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:16:46.331+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:16:46.331+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:16:46.340+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:16:46.354+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:16:46.354+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:16:46.373+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:16:46.373+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:16:46.393+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.071 seconds
+[2025-02-04T13:17:46.881+0530] {processor.py:186} INFO - Started process (PID=112171) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:17:46.883+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:17:46.885+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:17:46.885+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:17:46.895+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:17:46.910+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:17:46.910+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:17:46.929+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:17:46.929+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:17:46.950+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T13:19:12.983+0530] {processor.py:186} INFO - Started process (PID=112269) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:19:12.986+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:19:12.987+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:19:12.986+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:19:12.998+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:19:13.013+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:19:13.013+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:19:13.032+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:19:13.031+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:19:13.052+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T13:20:14.833+0530] {processor.py:186} INFO - Started process (PID=112338) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:20:14.836+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:20:14.837+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:20:14.837+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:20:14.848+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:20:14.863+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:20:14.863+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:20:14.883+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:20:14.883+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:20:14.903+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T13:21:13.253+0530] {processor.py:186} INFO - Started process (PID=112398) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:21:13.255+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:21:13.257+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:21:13.256+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:21:13.268+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:21:13.283+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:21:13.283+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:21:13.302+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:21:13.302+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:21:13.323+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:22:11.219+0530] {processor.py:186} INFO - Started process (PID=112458) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:22:11.222+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:22:11.223+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:22:11.223+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:22:11.234+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:22:11.249+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:22:11.249+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:22:11.268+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:22:11.268+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:22:11.289+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T13:23:38.980+0530] {processor.py:186} INFO - Started process (PID=112552) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:23:38.983+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:23:38.984+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:23:38.984+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:23:38.995+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:23:39.010+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:23:39.010+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:23:39.029+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:23:39.029+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:23:39.050+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:25:08.106+0530] {processor.py:186} INFO - Started process (PID=112645) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:25:08.108+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:25:08.110+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:25:08.109+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:25:08.121+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:25:08.136+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:25:08.136+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:25:08.155+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:25:08.155+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:25:08.176+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:26:06.703+0530] {processor.py:186} INFO - Started process (PID=112708) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:26:06.705+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:26:06.706+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:26:06.706+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:26:06.717+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:26:06.733+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:26:06.733+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:26:06.753+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:26:06.752+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:26:06.775+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T13:27:05.540+0530] {processor.py:186} INFO - Started process (PID=112768) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:27:05.543+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:27:05.544+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:27:05.544+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:27:05.555+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:27:05.570+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:27:05.570+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:27:05.590+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:27:05.590+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:27:05.611+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:28:30.876+0530] {processor.py:186} INFO - Started process (PID=112866) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:28:30.879+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:28:30.881+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:28:30.880+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:28:30.891+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:28:30.907+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:28:30.907+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:28:30.927+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:28:30.927+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:28:30.948+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T13:29:31.072+0530] {processor.py:186} INFO - Started process (PID=112927) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:29:31.075+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:29:31.076+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:29:31.076+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:29:31.087+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:29:31.103+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:29:31.103+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:29:31.122+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:29:31.122+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:29:31.143+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:30:32.711+0530] {processor.py:186} INFO - Started process (PID=112998) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:30:32.713+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:30:32.715+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:30:32.714+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:30:32.725+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:30:32.742+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:30:32.741+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:30:32.761+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:30:32.761+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:30:32.782+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:31:59.428+0530] {processor.py:186} INFO - Started process (PID=113089) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:31:59.431+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:31:59.432+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:31:59.432+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:31:59.443+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:31:59.459+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:31:59.458+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:31:59.478+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:31:59.478+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:31:59.498+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:33:01.591+0530] {processor.py:186} INFO - Started process (PID=113153) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:33:01.594+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:33:01.595+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:33:01.595+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:33:01.606+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:33:01.621+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:33:01.621+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:33:01.641+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:33:01.641+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:33:01.662+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:34:01.835+0530] {processor.py:186} INFO - Started process (PID=113214) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:34:01.838+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:34:01.840+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:34:01.839+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:34:01.850+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:34:01.866+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:34:01.866+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:34:01.885+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:34:01.885+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:34:01.905+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T13:35:01.100+0530] {processor.py:186} INFO - Started process (PID=113283) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:35:01.103+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:35:01.105+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:35:01.104+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:35:01.117+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:35:01.135+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:35:01.134+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:35:01.154+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:35:01.154+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:35:01.175+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T13:36:00.029+0530] {processor.py:186} INFO - Started process (PID=113350) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:36:00.031+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:36:00.033+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:36:00.032+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:36:00.044+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:36:00.059+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:36:00.059+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:36:00.079+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:36:00.079+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:36:00.101+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T13:36:58.863+0530] {processor.py:186} INFO - Started process (PID=113411) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:36:58.865+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:36:58.867+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:36:58.866+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:36:58.877+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:36:58.891+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:36:58.891+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:36:58.910+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:36:58.910+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:36:58.937+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T13:37:56.049+0530] {processor.py:186} INFO - Started process (PID=113475) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:37:56.052+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:37:56.053+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:37:56.053+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:37:56.063+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:37:56.077+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:37:56.077+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:37:56.096+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:37:56.095+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:37:56.117+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T13:38:56.690+0530] {processor.py:186} INFO - Started process (PID=113535) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:38:56.692+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:38:56.694+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:38:56.693+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:38:56.706+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:38:56.723+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:38:56.723+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:38:56.743+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:38:56.743+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:38:56.764+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T13:39:56.732+0530] {processor.py:186} INFO - Started process (PID=113598) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:39:56.735+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:39:56.736+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:39:56.736+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:39:56.747+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:39:56.763+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:39:56.763+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:39:56.784+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:39:56.783+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:39:56.804+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T13:40:55.858+0530] {processor.py:186} INFO - Started process (PID=113666) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:40:55.860+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:40:55.862+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:40:55.861+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:40:55.871+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:40:55.885+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:40:55.885+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:40:55.904+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:40:55.903+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:40:55.925+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.072 seconds
+[2025-02-04T13:41:56.397+0530] {processor.py:186} INFO - Started process (PID=113729) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:41:56.400+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:41:56.401+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:41:56.401+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:41:56.412+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:41:56.428+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:41:56.428+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:41:56.448+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:41:56.447+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:41:56.467+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:42:59.194+0530] {processor.py:186} INFO - Started process (PID=113792) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:42:59.196+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:42:59.198+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:42:59.197+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:42:59.209+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:42:59.224+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:42:59.224+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:42:59.243+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:42:59.243+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:42:59.265+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:43:58.045+0530] {processor.py:186} INFO - Started process (PID=113856) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:43:58.047+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:43:58.049+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:43:58.048+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:43:58.060+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:43:58.075+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:43:58.075+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:43:58.095+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:43:58.095+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:43:58.116+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:44:58.402+0530] {processor.py:186} INFO - Started process (PID=113917) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:44:58.404+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:44:58.406+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:44:58.405+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:44:58.417+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:44:58.433+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:44:58.432+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:44:58.452+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:44:58.452+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:44:58.473+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:45:54.901+0530] {processor.py:186} INFO - Started process (PID=113980) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:45:54.904+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:45:54.906+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:45:54.906+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:45:54.923+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:45:54.939+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:45:54.939+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:45:54.960+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:45:54.960+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:45:54.984+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.091 seconds
+[2025-02-04T13:46:55.558+0530] {processor.py:186} INFO - Started process (PID=114041) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:46:55.560+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:46:55.562+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:46:55.561+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:46:55.573+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:46:55.589+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:46:55.589+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:46:55.608+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:46:55.608+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:46:55.629+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:47:57.304+0530] {processor.py:186} INFO - Started process (PID=114104) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:47:57.306+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:47:57.308+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:47:57.307+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:47:57.318+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:47:57.334+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:47:57.334+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:47:57.354+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:47:57.353+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:47:57.374+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:49:27.142+0530] {processor.py:186} INFO - Started process (PID=114196) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:49:27.144+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:49:27.146+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:49:27.145+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:49:27.159+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:49:27.176+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:49:27.176+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:49:27.195+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:49:27.195+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:49:27.216+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T13:50:27.621+0530] {processor.py:186} INFO - Started process (PID=114261) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:50:27.624+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:50:27.625+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:50:27.625+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:50:27.636+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:50:27.652+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:50:27.652+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:50:27.671+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:50:27.671+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:50:27.691+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T13:51:28.286+0530] {processor.py:186} INFO - Started process (PID=114322) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:51:28.288+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:51:28.290+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:51:28.289+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:51:28.301+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:51:28.316+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:51:28.316+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:51:28.336+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:51:28.335+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:51:28.356+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:52:54.901+0530] {processor.py:186} INFO - Started process (PID=114412) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:52:54.904+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:52:54.905+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:52:54.905+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:52:54.916+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:52:54.932+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:52:54.932+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:52:54.952+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:52:54.951+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:52:54.973+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T13:53:54.777+0530] {processor.py:186} INFO - Started process (PID=114479) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:53:54.780+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:53:54.784+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:53:54.783+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:53:54.809+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:53:54.825+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:53:54.825+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:53:54.844+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:53:54.844+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:53:54.866+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.095 seconds
+[2025-02-04T13:54:55.729+0530] {processor.py:186} INFO - Started process (PID=114540) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:54:55.731+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:54:55.733+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:54:55.732+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:54:55.744+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:54:55.760+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:54:55.759+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:54:55.779+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:54:55.779+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:54:55.801+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T13:56:22.590+0530] {processor.py:186} INFO - Started process (PID=114635) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:56:22.592+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:56:22.594+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:56:22.593+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:56:22.605+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:56:22.621+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:56:22.620+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:56:22.641+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:56:22.640+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:56:22.663+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.079 seconds
+[2025-02-04T13:57:46.735+0530] {processor.py:186} INFO - Started process (PID=114724) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:57:46.738+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:57:46.739+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:57:46.739+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:57:46.750+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:57:46.765+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:57:46.765+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:57:46.787+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:57:46.787+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:57:46.807+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T13:58:46.243+0530] {processor.py:186} INFO - Started process (PID=114786) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:58:46.246+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:58:46.247+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:58:46.247+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:58:46.257+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:58:46.272+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:58:46.272+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:58:46.291+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:58:46.291+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:58:46.312+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T13:59:46.440+0530] {processor.py:186} INFO - Started process (PID=114847) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:59:46.442+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T13:59:46.444+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:59:46.443+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:59:46.454+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T13:59:46.471+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:59:46.470+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T13:59:46.490+0530] {logging_mixin.py:190} INFO - [2025-02-04T13:59:46.490+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T13:59:46.511+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T14:00:48.008+0530] {processor.py:186} INFO - Started process (PID=115075) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:00:48.010+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:00:48.012+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:00:48.011+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:00:48.022+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:00:48.038+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:00:48.037+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:00:48.057+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:00:48.056+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:00:48.077+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:01:49.969+0530] {processor.py:186} INFO - Started process (PID=115186) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:01:49.971+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:01:49.973+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:01:49.972+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:01:49.981+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:01:49.995+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:01:49.995+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:01:50.014+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:01:50.014+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:01:50.035+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.071 seconds
+[2025-02-04T14:02:57.120+0530] {processor.py:186} INFO - Started process (PID=115405) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:02:57.122+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:02:57.123+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:02:57.123+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:02:57.134+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:02:57.149+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:02:57.149+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:02:57.169+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:02:57.169+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:02:57.190+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T14:04:00.846+0530] {processor.py:186} INFO - Started process (PID=115560) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:04:00.849+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:04:00.851+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:04:00.850+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:04:00.863+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:04:00.879+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:04:00.879+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:04:00.899+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:04:00.899+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:04:00.920+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.079 seconds
+[2025-02-04T14:05:00.302+0530] {processor.py:186} INFO - Started process (PID=115758) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:05:00.304+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:05:00.306+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:05:00.306+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:05:00.316+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:05:00.332+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:05:00.332+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:05:00.351+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:05:00.351+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:05:00.371+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:05:57.567+0530] {processor.py:186} INFO - Started process (PID=115838) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:05:57.569+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:05:57.571+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:05:57.570+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:05:57.583+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:05:57.600+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:05:57.599+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:05:57.621+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:05:57.621+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:05:57.641+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.082 seconds
+[2025-02-04T14:07:26.930+0530] {processor.py:186} INFO - Started process (PID=116083) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:07:26.932+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:07:26.934+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:07:26.933+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:07:26.945+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:07:26.960+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:07:26.960+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:07:26.980+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:07:26.979+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:07:27.000+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T14:08:26.864+0530] {processor.py:186} INFO - Started process (PID=116247) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:08:26.866+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:08:26.868+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:08:26.868+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:08:26.879+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:08:26.893+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:08:26.893+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:08:26.911+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:08:26.911+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:08:26.932+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T14:09:25.064+0530] {processor.py:186} INFO - Started process (PID=116382) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:09:25.067+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:09:25.068+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:09:25.068+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:09:25.079+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:09:25.095+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:09:25.094+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:09:25.113+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:09:25.113+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:09:25.133+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:10:25.204+0530] {processor.py:186} INFO - Started process (PID=116708) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:10:25.207+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:10:25.208+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:10:25.208+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:10:25.219+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:10:25.234+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:10:25.234+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:10:25.253+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:10:25.253+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:10:25.273+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:11:26.077+0530] {processor.py:186} INFO - Started process (PID=124834) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:11:26.077+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:11:26.079+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:11:26.078+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:11:26.088+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:11:26.099+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:11:26.099+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:11:26.117+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:11:26.117+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:11:26.138+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.067 seconds
+[2025-02-04T14:12:29.209+0530] {processor.py:186} INFO - Started process (PID=125865) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:12:29.211+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:12:29.212+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:12:29.212+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:12:29.222+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:12:29.237+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:12:29.237+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:12:29.258+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:12:29.257+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:12:29.278+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:13:29.977+0530] {processor.py:186} INFO - Started process (PID=130677) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:13:29.980+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:13:29.981+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:13:29.981+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:13:29.992+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:13:30.008+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:13:30.007+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:13:30.027+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:13:30.026+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:13:30.047+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T14:14:29.535+0530] {processor.py:186} INFO - Started process (PID=130775) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:14:29.538+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:14:29.540+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:14:29.539+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:14:29.553+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:14:29.569+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:14:29.569+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:14:29.588+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:14:29.587+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:14:29.609+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.081 seconds
+[2025-02-04T14:15:31.574+0530] {processor.py:186} INFO - Started process (PID=131240) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:15:31.576+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:15:31.578+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:15:31.577+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:15:31.591+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:15:31.606+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:15:31.606+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:15:31.625+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:15:31.625+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:15:31.645+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T14:16:37.005+0530] {processor.py:186} INFO - Started process (PID=131447) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:16:37.007+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:16:37.009+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:16:37.008+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:16:37.019+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:16:37.035+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:16:37.035+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:16:37.053+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:16:37.053+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:16:37.074+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:17:34.895+0530] {processor.py:186} INFO - Started process (PID=131749) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:17:34.898+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:17:34.899+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:17:34.898+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:17:34.909+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:17:34.924+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:17:34.924+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:17:34.943+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:17:34.943+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:17:34.963+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.073 seconds
+[2025-02-04T14:18:35.782+0530] {processor.py:186} INFO - Started process (PID=140967) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:18:35.786+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:18:35.788+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:18:35.787+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:18:35.818+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:18:35.844+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:18:35.843+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:18:35.878+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:18:35.878+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:18:35.925+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.162 seconds
+[2025-02-04T14:19:46.925+0530] {processor.py:186} INFO - Started process (PID=145017) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:19:46.927+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:19:46.928+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:19:46.928+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:19:46.938+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:19:46.952+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:19:46.952+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:19:46.971+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:19:46.971+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:19:46.991+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.072 seconds
+[2025-02-04T14:20:47.777+0530] {processor.py:186} INFO - Started process (PID=145196) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:20:47.779+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:20:47.781+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:20:47.780+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:20:47.792+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:20:47.807+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:20:47.807+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:20:47.826+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:20:47.826+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:20:47.847+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T14:21:47.080+0530] {processor.py:186} INFO - Started process (PID=145259) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:21:47.083+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:21:47.084+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:21:47.084+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:21:47.095+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:21:47.111+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:21:47.110+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:21:47.130+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:21:47.130+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:21:47.150+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T14:22:45.183+0530] {processor.py:186} INFO - Started process (PID=145422) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:22:45.185+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:22:45.187+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:22:45.186+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:22:45.197+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:22:45.213+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:22:45.213+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:22:45.232+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:22:45.232+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:22:45.252+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:24:14.682+0530] {processor.py:186} INFO - Started process (PID=146152) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:24:14.685+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:24:14.686+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:24:14.686+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:24:14.697+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:24:14.712+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:24:14.712+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:24:14.731+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:24:14.731+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:24:14.751+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:25:15.663+0530] {processor.py:186} INFO - Started process (PID=146638) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:25:15.665+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:25:15.667+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:25:15.666+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:25:15.677+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:25:15.692+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:25:15.692+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:25:15.714+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:25:15.714+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:25:15.736+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.079 seconds
+[2025-02-04T14:26:21.351+0530] {processor.py:186} INFO - Started process (PID=156282) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:26:21.352+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:26:21.353+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:26:21.353+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:26:21.360+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:26:21.372+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:26:21.372+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:26:21.389+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:26:21.389+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:26:21.409+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.063 seconds
+[2025-02-04T14:27:24.159+0530] {processor.py:186} INFO - Started process (PID=159586) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:27:24.161+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:27:24.163+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:27:24.162+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:27:24.173+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:27:24.189+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:27:24.189+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:27:24.209+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:27:24.209+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:27:24.229+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T14:28:26.519+0530] {processor.py:186} INFO - Started process (PID=159676) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:28:26.521+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:28:26.522+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:28:26.522+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:28:26.535+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:28:26.552+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:28:26.552+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:28:26.571+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:28:26.571+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:28:26.593+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.081 seconds
+[2025-02-04T14:29:27.474+0530] {processor.py:186} INFO - Started process (PID=160226) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:29:27.476+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:29:27.477+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:29:27.477+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:29:27.486+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:29:27.502+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:29:27.501+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:29:27.524+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:29:27.524+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:29:27.546+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T14:30:29.336+0530] {processor.py:186} INFO - Started process (PID=160396) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:30:29.338+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:30:29.339+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:30:29.339+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:30:29.350+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:30:29.365+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:30:29.365+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:30:29.384+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:30:29.384+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:30:29.405+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:31:31.550+0530] {processor.py:186} INFO - Started process (PID=160494) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:31:31.553+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:31:31.554+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:31:31.554+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:31:31.564+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:31:31.580+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:31:31.580+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:31:31.599+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:31:31.599+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:31:31.619+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:32:31.408+0530] {processor.py:186} INFO - Started process (PID=160559) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:32:31.411+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:32:31.413+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:32:31.412+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:32:31.428+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:32:31.443+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:32:31.443+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:32:31.462+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:32:31.461+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:32:31.482+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.083 seconds
+[2025-02-04T14:33:33.436+0530] {processor.py:186} INFO - Started process (PID=160630) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:33:33.438+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:33:33.440+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:33:33.439+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:33:33.451+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:33:33.466+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:33:33.466+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:33:33.608+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:33:33.608+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:33:33.634+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.205 seconds
+[2025-02-04T14:34:39.032+0530] {processor.py:186} INFO - Started process (PID=160766) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:34:39.035+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:34:39.036+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:34:39.036+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:34:39.047+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:34:39.062+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:34:39.062+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:34:39.081+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:34:39.081+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:34:39.101+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T14:35:43.582+0530] {processor.py:186} INFO - Started process (PID=161151) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:35:43.585+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:35:43.586+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:35:43.586+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:35:43.597+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:35:43.613+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:35:43.612+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:35:43.632+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:35:43.631+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:35:43.652+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T14:36:47.696+0530] {processor.py:186} INFO - Started process (PID=161877) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:36:47.699+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:36:47.701+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:36:47.701+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:36:47.717+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:36:47.733+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:36:47.733+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:36:47.870+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:36:47.870+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:36:47.894+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.207 seconds
+[2025-02-04T14:37:53.075+0530] {processor.py:186} INFO - Started process (PID=161952) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:37:53.077+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:37:53.079+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:37:53.078+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:37:53.089+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:37:53.105+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:37:53.105+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:37:53.124+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:37:53.124+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:37:53.145+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T14:39:03.573+0530] {processor.py:186} INFO - Started process (PID=162086) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:39:03.575+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:39:03.577+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:39:03.576+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:39:03.586+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:39:03.601+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:39:03.600+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:39:03.621+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:39:03.621+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:39:03.650+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.084 seconds
+[2025-02-04T14:40:10.948+0530] {processor.py:186} INFO - Started process (PID=162382) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:40:10.950+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:40:10.951+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:40:10.950+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:40:10.959+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:40:10.972+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:40:10.972+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:40:11.098+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:40:11.098+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:40:11.122+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.180 seconds
+[2025-02-04T14:41:18.164+0530] {processor.py:186} INFO - Started process (PID=162623) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:41:18.166+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:41:18.167+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:41:18.167+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:41:18.176+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:41:18.190+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:41:18.190+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:41:18.209+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:41:18.209+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:41:18.229+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.071 seconds
+[2025-02-04T14:42:20.319+0530] {processor.py:186} INFO - Started process (PID=162917) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:42:20.321+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:42:20.323+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:42:20.322+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:42:20.332+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:42:20.346+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:42:20.346+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:42:20.365+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:42:20.365+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:42:20.385+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.071 seconds
+[2025-02-04T14:43:22.894+0530] {processor.py:186} INFO - Started process (PID=163135) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:43:22.895+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:43:22.896+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:43:22.896+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:43:22.906+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:43:22.921+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:43:22.921+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:43:22.942+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:43:22.942+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:43:22.966+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T14:44:22.683+0530] {processor.py:186} INFO - Started process (PID=163322) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:44:22.685+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:44:22.686+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:44:22.686+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:44:22.696+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:44:22.710+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:44:22.710+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:44:22.730+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:44:22.730+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:44:22.752+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T14:45:23.177+0530] {processor.py:186} INFO - Started process (PID=163568) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:45:23.179+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:45:23.181+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:45:23.181+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:45:23.194+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:45:23.209+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:45:23.209+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:45:23.228+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:45:23.228+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:45:23.248+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.079 seconds
+[2025-02-04T14:46:50.899+0530] {processor.py:186} INFO - Started process (PID=163764) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:46:50.901+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:46:50.906+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:46:50.905+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:46:50.923+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:46:50.939+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:46:50.939+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:46:50.961+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:46:50.961+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:46:50.984+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.090 seconds
+[2025-02-04T14:47:50.316+0530] {processor.py:186} INFO - Started process (PID=163893) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:47:50.317+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:47:50.318+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:47:50.318+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:47:50.330+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:47:50.345+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:47:50.345+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:47:50.366+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:47:50.366+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:47:50.387+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T14:48:51.853+0530] {processor.py:186} INFO - Started process (PID=164068) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:48:51.856+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:48:51.858+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:48:51.857+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:48:51.871+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:48:51.886+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:48:51.886+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:48:51.907+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:48:51.907+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:48:51.938+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.092 seconds
+[2025-02-04T14:49:52.232+0530] {processor.py:186} INFO - Started process (PID=164144) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:49:52.234+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:49:52.236+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:49:52.235+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:49:52.249+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:49:52.264+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:49:52.264+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:49:52.284+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:49:52.283+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:49:52.304+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T14:50:52.368+0530] {processor.py:186} INFO - Started process (PID=164330) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:50:52.373+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:50:52.376+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:50:52.376+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:50:52.396+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:50:52.413+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:50:52.413+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:50:52.433+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:50:52.433+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:50:52.456+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.111 seconds
+[2025-02-04T14:51:52.584+0530] {processor.py:186} INFO - Started process (PID=164458) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:51:52.586+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:51:52.588+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:51:52.587+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:51:52.597+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:51:52.610+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:51:52.610+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:51:52.629+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:51:52.629+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:51:52.649+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.070 seconds
+[2025-02-04T14:52:54.759+0530] {processor.py:186} INFO - Started process (PID=164528) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:52:54.762+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:52:54.763+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:52:54.763+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:52:54.776+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:52:54.792+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:52:54.791+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:52:54.811+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:52:54.810+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:52:54.832+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T14:53:52.631+0530] {processor.py:186} INFO - Started process (PID=164591) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:53:52.634+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:53:52.636+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:53:52.635+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:53:52.652+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:53:52.667+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:53:52.667+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:53:52.685+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:53:52.685+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:53:52.715+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.093 seconds
+[2025-02-04T14:54:52.674+0530] {processor.py:186} INFO - Started process (PID=164652) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:54:52.676+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:54:52.677+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:54:52.677+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:54:52.688+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:54:52.704+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:54:52.703+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:54:52.723+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:54:52.723+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:54:52.743+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T14:55:53.683+0530] {processor.py:186} INFO - Started process (PID=164719) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:55:53.686+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:55:53.688+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:55:53.687+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:55:53.704+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:55:53.720+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:55:53.719+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:55:53.739+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:55:53.739+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:55:53.761+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.087 seconds
+[2025-02-04T14:56:53.597+0530] {processor.py:186} INFO - Started process (PID=164780) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:56:53.600+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:56:53.601+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:56:53.601+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:56:53.610+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:56:53.624+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:56:53.624+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:56:53.643+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:56:53.642+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:56:53.671+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.078 seconds
+[2025-02-04T14:57:52.110+0530] {processor.py:186} INFO - Started process (PID=164841) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:57:52.112+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:57:52.113+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:57:52.113+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:57:52.123+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:57:52.137+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:57:52.137+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:57:52.156+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:57:52.156+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:57:52.176+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.072 seconds
+[2025-02-04T14:58:53.956+0530] {processor.py:186} INFO - Started process (PID=164959) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:58:53.957+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:58:53.958+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:58:53.958+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:58:53.970+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:58:53.987+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:58:53.987+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:58:54.009+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:58:54.009+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:58:54.033+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.083 seconds
+[2025-02-04T14:59:53.064+0530] {processor.py:186} INFO - Started process (PID=165046) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:59:53.066+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T14:59:53.067+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:59:53.067+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:59:53.081+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T14:59:53.098+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:59:53.097+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T14:59:53.117+0530] {logging_mixin.py:190} INFO - [2025-02-04T14:59:53.117+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T14:59:53.136+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T15:00:56.519+0530] {processor.py:186} INFO - Started process (PID=165360) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:00:56.522+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:00:56.524+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:00:56.523+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:00:56.540+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:00:56.556+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:00:56.556+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:00:56.575+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:00:56.574+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:00:56.596+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.086 seconds
+[2025-02-04T15:01:57.371+0530] {processor.py:186} INFO - Started process (PID=165540) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:01:57.373+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:01:57.374+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:01:57.374+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:01:57.384+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:01:57.397+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:01:57.397+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:01:57.416+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:01:57.416+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:01:57.435+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.071 seconds
+[2025-02-04T15:02:55.312+0530] {processor.py:186} INFO - Started process (PID=165832) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:02:55.314+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:02:55.316+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:02:55.315+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:02:55.327+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:02:55.341+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:02:55.341+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:02:55.360+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:02:55.360+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:02:55.380+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T15:04:20.770+0530] {processor.py:186} INFO - Started process (PID=166439) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:04:20.772+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:04:20.774+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:04:20.774+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:04:20.787+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:04:20.803+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:04:20.803+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:04:20.821+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:04:20.821+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:04:20.841+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.079 seconds
+[2025-02-04T15:05:20.392+0530] {processor.py:186} INFO - Started process (PID=167482) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:05:20.393+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:05:20.394+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:05:20.394+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:05:20.405+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:05:20.421+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:05:20.420+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:05:20.440+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:05:20.439+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:05:20.460+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T15:06:48.870+0530] {processor.py:186} INFO - Started process (PID=167658) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:06:48.871+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:06:48.871+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:06:48.871+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:06:48.879+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:06:48.890+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:06:48.890+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:06:48.906+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:06:48.906+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:06:48.930+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.065 seconds
+[2025-02-04T15:08:12.618+0530] {processor.py:186} INFO - Started process (PID=168143) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:08:12.620+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:08:12.622+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:08:12.621+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:08:12.632+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:08:12.648+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:08:12.648+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:08:12.667+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:08:12.667+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:08:12.687+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T15:09:39.262+0530] {processor.py:186} INFO - Started process (PID=168267) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:09:39.265+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:09:39.266+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:09:39.266+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:09:39.279+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:09:39.302+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:09:39.302+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:09:39.321+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:09:39.321+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:09:39.343+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.088 seconds
+[2025-02-04T15:10:44.142+0530] {processor.py:186} INFO - Started process (PID=168433) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:10:44.146+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:10:44.150+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:10:44.149+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:10:44.178+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:10:44.198+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:10:44.197+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:10:44.218+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:10:44.217+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:10:44.239+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.121 seconds
+[2025-02-04T15:11:49.026+0530] {processor.py:186} INFO - Started process (PID=168826) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:11:49.029+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:11:49.031+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:11:49.030+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:11:49.046+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:11:49.062+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:11:49.062+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:11:49.082+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:11:49.081+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:11:49.104+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.086 seconds
+[2025-02-04T15:12:54.845+0530] {processor.py:186} INFO - Started process (PID=168959) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:12:54.849+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:12:54.853+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:12:54.852+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:12:54.871+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:12:54.886+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:12:54.885+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:12:54.905+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:12:54.904+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:12:54.926+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.099 seconds
+[2025-02-04T15:13:53.608+0530] {processor.py:186} INFO - Started process (PID=170087) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:13:53.610+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:13:53.613+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:13:53.612+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:13:53.628+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:13:53.643+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:13:53.643+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:13:53.662+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:13:53.662+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:13:53.683+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.084 seconds
+[2025-02-04T15:14:57.039+0530] {processor.py:186} INFO - Started process (PID=170911) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:14:57.041+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:14:57.042+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:14:57.042+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:14:57.051+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:14:57.065+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:14:57.064+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:14:57.084+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:14:57.084+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:14:57.103+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.069 seconds
+[2025-02-04T15:16:23.823+0530] {processor.py:186} INFO - Started process (PID=171021) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:16:23.825+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:16:23.827+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:16:23.826+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:16:23.840+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:16:23.853+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:16:23.853+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:16:23.872+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:16:23.871+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:16:23.891+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T15:17:22.404+0530] {processor.py:186} INFO - Started process (PID=172138) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:17:22.407+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:17:22.409+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:17:22.409+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:17:22.424+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:17:22.439+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:17:22.439+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:17:22.458+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:17:22.458+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:17:22.478+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.083 seconds
+[2025-02-04T15:18:54.115+0530] {processor.py:186} INFO - Started process (PID=172537) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:18:54.117+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:18:54.118+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:18:54.118+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:18:54.129+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:18:54.144+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:18:54.143+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:18:54.163+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:18:54.163+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:18:54.185+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T15:19:52.157+0530] {processor.py:186} INFO - Started process (PID=173484) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:19:52.159+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:19:52.161+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:19:52.161+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:19:52.172+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:19:52.187+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:19:52.187+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:19:52.206+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:19:52.206+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:19:52.226+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T15:21:22.894+0530] {processor.py:186} INFO - Started process (PID=173656) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:21:22.897+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:21:22.898+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:21:22.898+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:21:22.909+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:21:22.924+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:21:22.924+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:21:22.943+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:21:22.943+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:21:22.964+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T15:22:23.351+0530] {processor.py:186} INFO - Started process (PID=173732) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:22:23.354+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:22:23.356+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:22:23.355+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:22:23.371+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:22:23.386+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:22:23.386+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:22:23.405+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:22:23.404+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:22:23.425+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.083 seconds
+[2025-02-04T15:23:24.541+0530] {processor.py:186} INFO - Started process (PID=173919) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:23:24.543+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:23:24.544+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:23:24.544+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:23:24.555+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:23:24.569+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:23:24.569+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:23:24.589+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:23:24.589+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:23:24.609+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T15:24:24.882+0530] {processor.py:186} INFO - Started process (PID=174139) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:24:24.885+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:24:24.886+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:24:24.885+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:24:24.896+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:24:24.910+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:24:24.910+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:24:24.930+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:24:24.930+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:24:24.950+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T15:25:57.571+0530] {processor.py:186} INFO - Started process (PID=174698) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:25:57.573+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:25:57.575+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:25:57.575+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:25:57.586+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:25:57.602+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:25:57.601+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:25:57.625+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:25:57.625+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:25:57.648+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.085 seconds
+[2025-02-04T15:26:58.008+0530] {processor.py:186} INFO - Started process (PID=174763) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:26:58.011+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:26:58.012+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:26:58.012+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:26:58.023+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:26:58.038+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:26:58.038+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:26:58.058+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:26:58.058+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:26:58.078+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T15:27:57.023+0530] {processor.py:186} INFO - Started process (PID=174826) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:27:57.026+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:27:57.027+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:27:57.027+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:27:57.038+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:27:57.053+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:27:57.053+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:27:57.072+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:27:57.072+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:27:57.092+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.075 seconds
+[2025-02-04T15:29:25.383+0530] {processor.py:186} INFO - Started process (PID=174922) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:29:25.385+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:29:25.387+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:29:25.387+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:29:25.403+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:29:25.418+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:29:25.418+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:29:25.436+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:29:25.436+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:29:25.456+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.083 seconds
+[2025-02-04T15:30:28.204+0530] {processor.py:186} INFO - Started process (PID=174993) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:30:28.206+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:30:28.207+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:30:28.207+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:30:28.217+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:30:28.231+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:30:28.231+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:30:28.249+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:30:28.249+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:30:28.270+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.071 seconds
+[2025-02-04T15:31:29.245+0530] {processor.py:186} INFO - Started process (PID=175066) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:31:29.247+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:31:29.249+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:31:29.249+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:31:29.262+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:31:29.278+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:31:29.278+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:31:29.298+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:31:29.298+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:31:29.318+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.080 seconds
+[2025-02-04T15:32:30.283+0530] {processor.py:186} INFO - Started process (PID=175131) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:32:30.285+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:32:30.287+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:32:30.286+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:32:30.297+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:32:30.311+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:32:30.311+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:32:30.330+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:32:30.330+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:32:30.351+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T15:33:30.598+0530] {processor.py:186} INFO - Started process (PID=175194) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:33:30.600+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:33:30.602+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:33:30.601+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:33:30.613+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:33:30.628+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:33:30.628+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:33:30.647+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:33:30.647+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:33:30.668+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T15:34:54.062+0530] {processor.py:186} INFO - Started process (PID=175287) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:34:54.065+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:34:54.066+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:34:54.066+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:34:54.077+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:34:54.092+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:34:54.092+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:34:54.112+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:34:54.112+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:34:54.132+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T15:35:54.556+0530] {processor.py:186} INFO - Started process (PID=175353) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:35:54.557+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:35:54.558+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:35:54.558+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:35:54.569+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:35:54.584+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:35:54.583+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:35:54.602+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:35:54.602+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:35:54.624+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.074 seconds
+[2025-02-04T15:36:55.392+0530] {processor.py:186} INFO - Started process (PID=175414) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:36:55.395+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:36:55.396+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:36:55.396+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:36:55.409+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:36:55.426+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:36:55.426+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:36:55.445+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:36:55.445+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:36:55.467+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.081 seconds
+[2025-02-04T15:37:54.691+0530] {processor.py:186} INFO - Started process (PID=175476) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:37:54.694+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:37:54.695+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:37:54.695+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:37:54.706+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:37:54.722+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:37:54.721+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:37:54.741+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:37:54.741+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:37:54.762+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T15:38:54.332+0530] {processor.py:186} INFO - Started process (PID=175538) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:38:54.335+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:38:54.336+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:38:54.336+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:38:54.347+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:38:54.363+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:38:54.363+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:38:54.382+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:38:54.382+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:38:54.403+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T15:39:57.296+0530] {processor.py:186} INFO - Started process (PID=175606) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:39:57.298+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:39:57.300+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:39:57.299+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:39:57.311+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:39:57.326+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:39:57.326+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:39:57.345+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:39:57.345+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:39:57.366+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.076 seconds
+[2025-02-04T15:40:56.840+0530] {processor.py:186} INFO - Started process (PID=175670) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:40:56.842+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:40:56.844+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:40:56.843+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:40:56.855+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:40:56.870+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:40:56.870+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:40:56.890+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:40:56.890+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:40:56.911+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T15:41:55.089+0530] {processor.py:186} INFO - Started process (PID=175732) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:41:55.091+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:41:55.093+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:41:55.092+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:41:55.104+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:41:55.120+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:41:55.120+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:41:55.139+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:41:55.139+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:41:55.159+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T15:43:24.677+0530] {processor.py:186} INFO - Started process (PID=175826) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:43:24.680+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:43:24.681+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:43:24.681+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:43:24.692+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:43:24.708+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:43:24.707+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:43:24.727+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:43:24.727+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:43:24.748+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T15:44:22.553+0530] {processor.py:186} INFO - Started process (PID=175887) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:44:22.556+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:44:22.557+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:44:22.557+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:44:22.569+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:44:22.584+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:44:22.584+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:44:22.603+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:44:22.603+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:44:22.624+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.077 seconds
+[2025-02-04T15:45:22.355+0530] {processor.py:186} INFO - Started process (PID=175962) to work on /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:45:22.358+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/exampledag.py for tasks to queue
+[2025-02-04T15:45:22.360+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:45:22.360+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:45:22.377+0530] {processor.py:925} INFO - DAG(s) 'hey_ud_dag' retrieved from /home/umang/airflow/dags/exampledag.py
+[2025-02-04T15:45:22.392+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:45:22.392+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T15:45:22.412+0530] {logging_mixin.py:190} INFO - [2025-02-04T15:45:22.412+0530] {dag.py:4180} INFO - Setting next_dagrun for hey_ud_dag to 2025-02-03 23:00:00+00:00, run_after=2025-02-04 23:00:00+00:00
+[2025-02-04T15:45:22.434+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/exampledag.py took 0.087 seconds

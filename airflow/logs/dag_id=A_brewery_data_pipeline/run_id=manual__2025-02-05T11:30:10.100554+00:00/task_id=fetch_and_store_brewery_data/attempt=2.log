@@ -1,0 +1,159 @@
+[2025-02-05T17:05:16.511+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-05T17:05:16.518+0530] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: A_brewery_data_pipeline.fetch_and_store_brewery_data manual__2025-02-05T11:30:10.100554+00:00 [queued]>
+[2025-02-05T17:05:16.522+0530] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: A_brewery_data_pipeline.fetch_and_store_brewery_data manual__2025-02-05T11:30:10.100554+00:00 [queued]>
+[2025-02-05T17:05:16.522+0530] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2025-02-05T17:05:16.536+0530] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_store_brewery_data> on 2025-02-05 11:30:10.100554+00:00
+[2025-02-05T17:05:16.540+0530] {standard_task_runner.py:72} INFO - Started process 315825 to run task
+[2025-02-05T17:05:16.542+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'A_brewery_data_pipeline', 'fetch_and_store_brewery_data', 'manual__2025-02-05T11:30:10.100554+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_miniproject.py', '--cfg-path', '/tmp/tmpdv8xhgfe']
+[2025-02-05T17:05:16.543+0530] {standard_task_runner.py:105} INFO - Job 57: Subtask fetch_and_store_brewery_data
+[2025-02-05T17:05:16.572+0530] {task_command.py:467} INFO - Running <TaskInstance: A_brewery_data_pipeline.fetch_and_store_brewery_data manual__2025-02-05T11:30:10.100554+00:00 [running]> on host umang-Latitude-7490
+[2025-02-05T17:05:16.616+0530] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='A_brewery_data_pipeline' AIRFLOW_CTX_TASK_ID='fetch_and_store_brewery_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-05T11:30:10.100554+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-05T11:30:10.100554+00:00'
+[2025-02-05T17:05:16.617+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-05T17:05:16.617+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-05T17:05:16.617+0530] {logging_mixin.py:190} INFO - Current task name:fetch_and_store_brewery_data state:running start_date:2025-02-05 11:35:16.518485+00:00
+[2025-02-05T17:05:16.618+0530] {logging_mixin.py:190} INFO - Dag name:A_brewery_data_pipeline and current dag run status:running
+[2025-02-05T17:05:16.618+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-05T17:05:17.247+0530] {logging_mixin.py:190} INFO - API Request URL: https://api.openbrewerydb.org/v1/breweries
+[2025-02-05T17:05:17.248+0530] {logging_mixin.py:190} INFO - Response Code: 200
+[2025-02-05T17:05:17.257+0530] {logging_mixin.py:190} WARNING - /home/umang/airflow/dags/pipeline_miniproject.py:42 FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+[2025-02-05T17:05:17.355+0530] {__init__.py:149} INFO - package: mysql.connector.plugins
+[2025-02-05T17:05:17.355+0530] {__init__.py:150} INFO - plugin_name: caching_sha2_password
+[2025-02-05T17:05:17.355+0530] {__init__.py:154} INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+[2025-02-05T17:05:17.361+0530] {logging_mixin.py:190} INFO - Inserting row: ('5128df48-79fc-4f0f-8b52-d06be54d0cec', '(405) Brewing Co', 'micro', '1716 Topeka St', None, None, 'Norman', 'Oklahoma', '73069-8224', 'United States', -97.46818222, 35.25738891, '4058160490', 'http://www.405brewing.com', 'Oklahoma', '1716 Topeka St')
+[2025-02-05T17:05:17.363+0530] {logging_mixin.py:190} INFO - Inserting row: ('9c5a66c8-cc13-416f-a5d9-0a769c87d318', '(512) Brewing Co', 'micro', '407 Radam Ln Ste F200', None, None, 'Austin', 'Texas', '78745-1197', 'United States', 0.0, 0.0, '5129211545', 'http://www.512brewing.com', 'Texas', '407 Radam Ln Ste F200')
+[2025-02-05T17:05:17.363+0530] {logging_mixin.py:190} INFO - Inserting row: ('34e8c68b-6146-453f-a4b9-1f6cd99a5ada', '1 of Us Brewing Company', 'micro', '8100 Washington Ave', None, None, 'Mount Pleasant', 'Wisconsin', '53406-3920', 'United States', -87.88336350209435, 42.72010826899558, '2624847553', 'https://www.1ofusbrewing.com', 'Wisconsin', '8100 Washington Ave')
+[2025-02-05T17:05:17.364+0530] {logging_mixin.py:190} INFO - Inserting row: ('ef970757-fe42-416f-931d-722451f1f59c', '10 Barrel Brewing Co', 'large', '1501 E St', None, None, 'San Diego', 'California', '92101-6618', 'United States', -117.129593, 32.714813, '6195782311', 'http://10barrel.com', 'California', '1501 E St')
+[2025-02-05T17:05:17.365+0530] {logging_mixin.py:190} INFO - MySQL Error: 1264 (22003): Out of range value for column 'longitude' at row 1
+[2025-02-05T17:05:17.365+0530] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/airflow/dags/pipeline_miniproject.py", line 133, in fetch_and_store_data
+    cursor.execute(insert_query, values)
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/cursor.py", line 416, in execute
+    self._connection.cmd_query(
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 106, in wrapper
+    result = method(cnx, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/utils.py", line 742, in handle_cnx_method
+    raise err
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/utils.py", line 738, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/connection.py", line 937, in cmd_query
+    result = self._handle_result(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/utils.py", line 742, in handle_cnx_method
+    raise err
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/utils.py", line 738, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/connection.py", line 703, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DataError: 1264 (22003): Out of range value for column 'longitude' at row 1
+[2025-02-05T17:05:17.370+0530] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-05T17:05:17.370+0530] {logging_mixin.py:190} INFO - Task start:2025-02-05 11:35:16.518485+00:00 end:2025-02-05 11:35:17.369896+00:00 duration:0.851411
+[2025-02-05T17:05:17.370+0530] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): fetch_and_store_brewery_data> dag:<DAG: A_brewery_data_pipeline> dagrun:<DagRun A_brewery_data_pipeline @ 2025-02-05 11:30:10.100554+00:00: manual__2025-02-05T11:30:10.100554+00:00, state:running, queued_at: 2025-02-05 11:30:10.113844+00:00. externally triggered: True>
+[2025-02-05T17:05:17.370+0530] {logging_mixin.py:190} INFO - Failure caused by 1264 (22003): Out of range value for column 'longitude' at row 1
+[2025-02-05T17:05:17.370+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=A_brewery_data_pipeline, task_id=fetch_and_store_brewery_data, run_id=manual__2025-02-05T11:30:10.100554+00:00, execution_date=20250205T113010, start_date=20250205T113516, end_date=20250205T113517
+[2025-02-05T17:05:17.381+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-05T17:05:17.381+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 57 for task fetch_and_store_brewery_data (1264 (22003): Out of range value for column 'longitude' at row 1; 315825)
+Traceback (most recent call last):
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/airflow/dags/pipeline_miniproject.py", line 133, in fetch_and_store_data
+    cursor.execute(insert_query, values)
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/cursor.py", line 416, in execute
+    self._connection.cmd_query(
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 106, in wrapper
+    result = method(cnx, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/utils.py", line 742, in handle_cnx_method
+    raise err
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/utils.py", line 738, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/connection.py", line 937, in cmd_query
+    result = self._handle_result(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/utils.py", line 742, in handle_cnx_method
+    raise err
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/utils.py", line 738, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/umang/Dataslush_umang/airflow_env/lib/python3.12/site-packages/mysql/connector/connection.py", line 703, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.DataError: 1264 (22003): Out of range value for column 'longitude' at row 1
+[2025-02-05T17:05:17.397+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-02-05T17:05:17.406+0530] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-05T17:05:17.406+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

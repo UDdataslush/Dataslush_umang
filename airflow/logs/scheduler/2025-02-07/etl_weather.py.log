@@ -1,0 +1,7 @@
+[2025-02-07T10:35:36.302+0530] {processor.py:186} INFO - Started process (PID=364322) to work on /home/umang/airflow/dags/etl_weather.py
+[2025-02-07T10:35:36.303+0530] {processor.py:914} INFO - Processing file /home/umang/airflow/dags/etl_weather.py for tasks to queue
+[2025-02-07T10:35:36.305+0530] {logging_mixin.py:190} INFO - [2025-02-07T10:35:36.304+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/umang/airflow/dags/etl_weather.py
+[2025-02-07T10:35:36.602+0530] {processor.py:925} INFO - DAG(s) 'weather_etl_pipeline' retrieved from /home/umang/airflow/dags/etl_weather.py
+[2025-02-07T10:35:36.754+0530] {logging_mixin.py:190} INFO - [2025-02-07T10:35:36.753+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-07T10:35:36.778+0530] {logging_mixin.py:190} INFO - [2025-02-07T10:35:36.777+0530] {dag.py:4180} INFO - Setting next_dagrun for weather_etl_pipeline to 2025-02-06 00:00:00+00:00, run_after=2025-02-07 00:00:00+00:00
+[2025-02-07T10:35:36.801+0530] {processor.py:208} INFO - Processing /home/umang/airflow/dags/etl_weather.py took 0.511 seconds
