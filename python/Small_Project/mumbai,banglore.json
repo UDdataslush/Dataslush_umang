@@ -1,0 +1,16 @@
+[
+    {
+        "location": "Mumbai",
+        "temperature": "32\u00b0",
+        "condition": "Sunny and a gentle breeze",
+        "humidity": "0%chance of precipitation",
+        "date": "2025-02-12"
+    },
+    {
+        "location": "Bangalore",
+        "temperature": "31\u00b0",
+        "condition": "Sunny and a gentle breeze",
+        "humidity": "0%chance of precipitation",
+        "date": "2025-02-12"
+    }
+]
